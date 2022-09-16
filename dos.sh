@@ -9,7 +9,7 @@ echo '#3) Die Siedler II             #'
 echo '################################'
 echo '#4) exit                       #'
 echo '################################'
-read -p 'pick your game' pick
+read -p 'pick your game: ' pick
 if [ $pick == '1' ];
 then dosbox -conf ~/.dosbox/albion.conf
 elif [ $pick == '2' ];
