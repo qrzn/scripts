@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# archive extractor
+# archive extractor, working okay so far
 {
     for plik in "$@"; do
         tar -xvaf "$plik" 2>/dev/null && 
