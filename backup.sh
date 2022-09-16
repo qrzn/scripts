@@ -1,5 +1,5 @@
 #!/bin/bash
-
+clear
 echo "running backup script...yay"
 cp -rv ~/.dosbox ~/git/.fls/
 cp -rv ~/.vimrc ~/git/.fls/

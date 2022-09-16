@@ -1,13 +1,13 @@
 #!/bin/bash
-
+clear
 echo '################################'
-echo '#DOSBox Game Launcher v0.1     #'
+echo '#   DOSBox Game Launcher v0.1  #'
 echo '################################'
-echo '#1) Albion                     #'
-echo '#2) Master of Orion            #'
-echo '#3) Die Siedler II             #'
+echo '#   1) Albion                  #'
+echo '#   2) Master of Orion         #'
+echo '#   3) Die Siedler II          #'
 echo '################################'
-echo '#4) exit                       #'
+echo '#   4) exit                    #'
 echo '################################'
 read -p 'pick your game: ' pick
 if [ $pick == '1' ];
