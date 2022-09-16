@@ -15,9 +15,9 @@ echo '#   6) Master of Orion         #'
 echo '#   7) Die Siedler II          #'
 echo '#   8) Return to the Roots     #'
 echo '################################'
-echo '#   8) exit                    #'
+echo '#   9) exit                    #'
 echo '################################'
-read -p 'pick your game: ' pick
+read -p 'pick your game (1-9): ' pick
 if [ $pick == '1' ];
 then dosbox -conf ~/.dosbox/albion.conf
 elif [ $pick == '2' ];
@@ -37,5 +37,5 @@ then cd ~/Spiele/s2/rttr/bin && ./rttr.sh
 elif [ $pick == '9' ];
 then exit
 else
-read -p 'wrong input, try again'
+read -p 'wrong input, one more try (1-9):' pick
 fi
