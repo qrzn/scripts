@@ -9,9 +9,9 @@ read -p 'do you want to upload the files to git? (y/n)' yn
 if [ $yn == 'y' ];
 then
 cd ~/git/.fls;
-git add *;
-git commit -a -m 'changed stuff';
-git push -u origin master;
+git add . 
+git commit -m 'changed stuff';
+git push;
 echo 'backup complete!';
 elif [ $yn == 'n' ];
 then 
