@@ -1,0 +1,9 @@
+#######################
+#   CONGRATULATIONS   #
+#######################
+# You have finished   #
+# the workout for     #
+# today!              #
+#######################
+#   ~see you soon~    #
+#######################

@@ -1,0 +1,31 @@
+#!/bin/bash
+
+# game launcher, easy to choose games and make my zshrc a bit smaller
+clear
+echo '################################'
+echo '#  wout - workout wizard v0.1  #'
+echo '#                    ~ by qrzn #'
+echo '################################'
+echo '#                      ,    _  #'
+echo '#                     /|   | | #'
+echo '#                   _/_\_  >_< #'
+echo '#  1) start        .-\-/.   |  #'
+echo '#  2) help        /  | | \_ |  #'
+echo '#                 \ \| |\__(|  #'
+echo '#                 /\`---/   |  #'
+echo '#                 / /   \   |  #'
+echo '################################'
+echo '#  3) exit                     #'
+echo '################################'
+echo '                                '
+echo 'Welcome, young apprentice'
+read -p 'whats your next step? (1-3): ' pick
+if [ $pick == '1' ];
+then sh 'data/start.sh'
+elif [ $pick == '2' ];
+then more 'data/help.txt'
+elif [ $pick == '3' ];
+then exit
+else
+read -p 'wrong input, one more try (1-9):' pick
+fi

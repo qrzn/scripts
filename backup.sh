@@ -1,5 +1,6 @@
 #!/bin/bash
 # backup tool for dotfiles
+# ATTENTION if the files don't exist in your home directory they'll get deleted in the repository
 clear
 echo "running backup script...yay"
 cd ~/git/.fls
