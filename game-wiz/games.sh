@@ -25,7 +25,7 @@ then dosbox -conf ~/.dosbox/albion.conf
 elif [ $pick == '2' ];
 then cd ~/Spiele/arcanum && wine Arcanum.exe
 elif [ $pick == '3' ];
-then dosbox -conf ~/.dosbox/daggerfall.conf
+then cd '/home/jan/git/scripts/game-wiz/data/' && sh df-launch.sh
 elif [ $pick == '4' ];
 then cd ~/Spiele/emperor/ && wine Emperor.exe
 elif [ $pick == '5' ];
@@ -34,8 +34,6 @@ elif [ $pick == '6' ];
 then dosbox -conf ~/.dosbox/moo.conf
 elif [ $pick == '7' ];
 then dosbox -conf ~/.dosbox/s2.conf
-elif [ $pick == '8' ];
-then cd ~/Spiele/dfu/ && ./DaggerfallUnity.x86_64
 elif [ $pick == '9' ];
 then clear && echo 'the wizard says: goodbye, apprentice..'
 else
