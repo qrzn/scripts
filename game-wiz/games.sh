@@ -13,7 +13,7 @@ echo '#  4) emperor      .-\-/.   |  #'
 echo '#  5) openmw      /  | | \_ |  #'
 echo '#  6) moo         \ \| |\__(|  #'
 echo '#  7) s2          /\`---/   |  #'
-echo '#  8) dfu         / /   \   |  #'
+echo '#  8) Fallout NV  / /   \   |  #'
 echo '################################'
 echo '#  9) exit                     #'
 echo '################################'
@@ -25,7 +25,7 @@ then dosbox -conf ~/.dosbox/albion.conf
 elif [ $pick == '2' ];
 then cd ~/Spiele/arcanum && wine Arcanum.exe
 elif [ $pick == '3' ];
-then cd '/home/jan/git/scripts/game-wiz/data/' && sh df-launch.sh
+then sh ./data/df-launch.sh
 elif [ $pick == '4' ];
 then cd ~/Spiele/emperor/ && wine Emperor.exe
 elif [ $pick == '5' ];
@@ -33,7 +33,9 @@ then openmw-launcher
 elif [ $pick == '6' ];
 then dosbox -conf ~/.dosbox/moo.conf
 elif [ $pick == '7' ];
-then dosbox -conf ~/.dosbox/s2.conf
+then sh ./data/s2-launch.sh  
+elif [ $pick == '8' ];
+then cd '/home/jan/Spiele/fnv' && wine FalloutNV.exe 
 elif [ $pick == '9' ];
 then clear && echo 'the wizard says: goodbye, apprentice..'
 else

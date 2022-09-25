@@ -1,0 +1,1 @@
+find a more elegant solution for daggerfall, to make it portable
