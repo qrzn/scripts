@@ -9,10 +9,10 @@
     |    2) Arcanum              |.
     |    3) Daggerfall           |.
     |    4) Emperor              |.
-    |    5) Master of Orion      |.
+    |    5) Master  of Orion     |.
     |    6) Morrowind            |.
-    |    7) Die Siedler II       |.
-    |    8) Fallout              |.
+    |    7) Die Siedler ][       |.
+    |    8) Fallout - New Vegas  |.
     |   _________________________|___
     |  /                            /.
     | /         9) exit            /.

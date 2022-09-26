@@ -1,0 +1,81 @@
+#!/bin/bash
+
+# start.sh, first try in listing workouts, no timer so far, so it's repetition based or you need to use an external clock to measure the time, it will be included in the final version hower.
+
+data="/home/jan/git/scripts/wout/data/"
+wout="/home/jan/git/scripts/wout/"
+# THIS is the block for ROUND ONE
+# ROUND ONE
+start=$MINUTES
+
+# ROUND ONE
+printf $start
+clear
+cat $data/round1.txt
+read -p 'Enter 1 to continue, 2 to abort: ' pick
+if [ $pick == '1' ];
+then cat $data/round2.txt 
+elif [ $pick == '2' ];
+then sh $wout/wout.sh
+else
+read -p 'wrong input, one more try (1-2):' pick
+fi
+
+# this is a block for round 2-semifinal round, just copy it until round 5
+# ROUND TWO
+clear
+cat $data/round2.txt
+read -p 'Enter 1 to continue, 2 to abort: ' pick
+if [ $pick == '1' ];
+then cat $data/round3.txt 
+elif [ $pick == '2' ];
+then sh $wout/wout.sh 
+else
+read -p 'wrong input, one more try (1-2):' pick
+fi
+
+# this is a block for a round, just copy it until round 5
+# ROUND THREE
+clear
+cat $data/round3.txt
+read -p 'Enter 1 to continue, 2 to abort: ' pick
+if [ $pick == '1' ];
+then cat $data/round3.txt 
+elif [ $pick == '2' ];
+then sh $wout/wout.sh
+else
+read -p 'wrong input, one more try (1-2):' pick
+fi
+
+# this is a block for a round, just copy it until round 5
+# ROUND FOUR
+clear
+cat $data/round4.txt
+read -p 'Enter 1 to continue, 2 to abort: ' pick
+if [ $pick == '1' ];
+then cat $data/round5.txt 
+elif [ $pick == '2' ];
+then sh $wout/wout.sh
+else
+read -p 'wrong input, one more try (1-2):' pick
+fi
+
+# this is a block for a round, just copy it until round 5
+# ROUND FIVE
+clear
+cat $data/round5.txt
+read -p 'Enter 1 to continue, 2 to abort: ' pick
+if [ $pick == '1' ];
+then cat $data/conclusion.txt$ 
+elif [ $pick == '2' ];
+then echo 'aborting, you lazy son of a bitch...' && sh './wout.sh' 
+else
+read -p 'wrong input, one more try (1-2):' pick
+fi
+
+# CONCLUSION
+clear
+cat $data/conclusion.txt
+duration=$(( MINUTES - start ))
+echo 'Congratulations, youre done for today!'
+echo "the workout took you $duration minutes"
