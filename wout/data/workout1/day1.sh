@@ -1,7 +1,7 @@
-#!/bin/bash
+  #!/bin/bash
 
 # variables
-data='/home/jan/git/scripts/wout/data/workout1/'
+data='/home/jan/git/scripts/wout/data/workout1'
 
 # functions
 press (){ 
@@ -134,4 +134,7 @@ clear
 duration=$(( MINUTES - start ))
 echo "SUMMARY"
 echo "Your workout took $MINUTES minutes"
-echo "You burned x calories."
+echo "You burned $(( $MINUTES * 11 )) calories."
+echo "writing progress file..."
+echo "day 1/21 complete" >| $data/progress.txt
+echo "Done! Saved file to /data/progress.txt" 
