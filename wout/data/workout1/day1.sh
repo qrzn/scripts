@@ -1,15 +1,48 @@
-  #!/bin/bash
-
+#!/bin/bash
+SECONDS=0  
 # variables
 data='/home/jan/git/scripts/wout/data/workout1'
 
 # functions
-press (){ 
+press () { 
 	read -rsp $'Press any key to continue...\n' -n1 key
 }
 bell () {
 	printf '\a'
 }
+# timer functions, future versions will have one function instead
+# prints the remaining time every 5 seconds
+cd30 () {
+SECS=30
+  while [[ 0 -ne $SECS ]]; do
+    echo "$SECS.."
+    sleep 5
+    SECS=$[$SECS-5]
+  done
+    echo "done"; printf '\a'
+}
+cd100 () {
+SECS=100
+  while [[ 0 -ne $SECS ]]; do
+    echo "$SECS.."
+    sleep 5
+    SECS=$[$SECS-5]
+  done
+    echo "done"; printf '\a'
+    read -rsp $'Press any key to continue...\n' -n1 key
+}
+cd150 () {
+SECS=150
+  while [[ 0 -ne $SECS ]]; do
+    echo "$SECS.."
+    sleep 5
+    SECS=$[$SECS-5]
+  done
+    echo "done"; printf '\a'
+    read -rsp $'Press any key to continue...\n' -n1 key
+}
+
+# main script
 press
 start=$MINUTES
 clear
@@ -18,14 +51,11 @@ press
 # WARMUP
 echo 'WARMUP'
 echo '30sec high knees'
-sleep 30
-bell 
+cd30
 echo '30sec mountain climbers'
-sleep 30
-bell
+cd30
 echo '30 sec crab walk'
-sleep 30
-bell
+cd30
 press
 clear
 # ROUND I
@@ -33,10 +63,7 @@ echo 'ROUND I'
 echo '20x hip raises'
 press
 echo '2.30min shadow boxing'
-sleep 150
-bell
-echo 'done'
-press
+cd150
 echo '15x leg raises'
 press
 echo '15x isolated crunches left/right'
@@ -58,9 +85,7 @@ press
 echo '15x toe touches'
 press
 echo '2.30mins front rack stretch'
-sleep 150
-bell
-echo 'done'
+cd150
 press
 echo '45x biceps curls'
 press

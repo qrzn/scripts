@@ -3,12 +3,6 @@
 # a cli based game launcher
 # written by qrzn
 
-display_center(){
-    columns="$(tput cols)"
-    while IFS= read -r line; do
-        printf "%*s\n" $(( (${#line} + columns) / 2)) "$line"
-    done < "$1"
-}
 # more variables means less code
 game="$HOME/Spiele"
 txt="$HOME/git/scripts/game-wiz/menus"
@@ -17,103 +11,96 @@ dosbox="$HOME/.dosbox"
 
 # clear terminal
 clear
-display_center "$txt/wiz.txt"
+cat $txt/gamewiz.txt
 # launch options prompt
 PS3="choose game and press ENTER: "
 
-select opt in "Albion" "Arcanum" "Augustus" "Daggerfall" "Daggerfall Unity" "Emperor" "Factorio" "Fallout" "Fallout 2" "Fallout New Vegas" "Morrowind" "Master of Orion" "Master of Orion II" "Die Siedler II" "exit"; do
+select opt in "Albion" "Arcanum" "Augustus" "Daggerfall" "Daggerfall Unity" "Emperor" "Factorio" "Fallout 2" "Fallout New Vegas" "Morrowind" "Master of Orion" "Master of Orion II" "Die Siedler II" close; do
 
 case $opt in
 	"Albion")
 		clear
-		echo "now playing - albion" 
+		echo "starting: albion" 
 		dosbox -conf $dosbox/albion.conf
 		exit
 		;;
 	"Arcanum")
 		clear
-		echo "now playing - arcanum"
+		echo "starting: arcanum"
 		wine $game/arcanum/arcanum.exe
 		exit
 		;;
 	"Augustus")
 		clear
-		echo "now playing - Augustus"
+		echo "starting: Augustus"
 		augustus-game
 		exit
 		;;
 	"Daggerfall")
 		clear
-		echo "now playing - daggerfall"
+		echo "starting: daggerfall"
 		dosbox -conf $dosbox/daggerfall.conf
 		exit
 		;;
 	"Daggerfall Unity")
 		clear
-		echo "now playing - daggerfall"
+		echo "starting: daggerfall"
 		cd $game/dfu/
 		./DaggerfallUnity.x86_64
 		exit
 		;;
 	"Emperor")
 		clear
-		echo "now playing - emperor"
+		echo "starting emperor"
 		wine $game/arcanum/emperor.exe
 		exit
 		;;
 	"Factorio")
 		clear
-		echo "now playing - Factorio"
+		echo "starting Factorio"
 		cd $game/factorio/bin/x64
 		./factorio
 		exit
 		;;
-	"Fallout")
-		clear
-		echo "now playing - Fallout"
-		cd $game/fallout/
-		wine falloutw.exe
-		exit
-		;;
 	"Fallout 2")
 		clear
-		echo "now playing - Fallout 2"
-		cd $game/fallout2/
-		wine fallout2.exe
+		echo "starting fallout2"
+		wine $game/fallout2/fallout2.exe
 		exit
 		;;
 	"Fallout New Vegas")
 		clear
-		echo "now playing - Fallout - New Vegas"
+		echo "starting falloutnv"
 		cd $game/fnv
 		wine nvse_loader.exe
 		exit
 		;;
 	"Master of Orion")
 		clear
-		echo "now playing - Master of Orion"
+		echo "starting moo"
 		dosbox -conf $dosbox/moo.conf
 		exit
 		;;
 	"Master of Orion II")
 		clear
-		echo "now playing - Master of Orion II - Battle at Antares"
-		dosbox -conf $dosbox/moo2.conf
+		echo "starting Master of Orion II"
+		tclsh $game/mastori2/launcher/install-linux
+		dosbox -conf $dosbox/moo.conf
 		exit
 		;;
 	"Morrowind")
 		clear
-		echo "now playing - Morrowind"
+		echo "starting Morrowind"
 		openmw
 		exit
 		;;
 	"Die Siedler II")
 		clear
-		echo "now playing - Die Siedler II - Gold Edition"
+		echo "starting Die Siedler II"
 		dosbox -conf $dosbox/s2.conf
 		exit
 		;;
-        "exit")
+	close)
 		clear
 		echo "the wizard says: goodbye, young apprentice!"
 		exit
