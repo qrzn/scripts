@@ -9,10 +9,10 @@ display_center(){
         printf "%*s\n" $(( (${#line} + columns) / 2)) "$line"
     done < "$1"
 }
+
 # more variables means less code
 game="$HOME/Spiele"
-txt="$HOME/git/scripts/game-wiz/menus"
-data="$HOME/git/scripts/game-wiz/data"
+txt="$HOME/git/scripts/game-wiz"
 dosbox="$HOME/.dosbox"
 
 # clear terminal
@@ -21,19 +21,25 @@ display_center "$txt/wiz.txt"
 # launch options prompt
 PS3="choose game and press ENTER: "
 
-select opt in "Albion" "Arcanum" "Augustus" "Daggerfall" "Daggerfall Unity" "Emperor" "Factorio" "Fallout" "Fallout 2" "Fallout New Vegas" "Morrowind" "Master of Orion" "Master of Orion II" "Die Siedler II" "exit"; do
+select opt in "Albion" "Arena" "Arcanum" "Augustus" "Daggerfall" "Daggerfall Unity" "Emperor" "Factorio" "Fallout" "Fallout 2" "Fallout New Vegas" "Morrowind" "Master of Orion" "Master of Orion II" "Die Siedler II" "exit"; do
 
 case $opt in
 	"Albion")
 		clear
-		echo "now playing - albion" 
+		echo "now playing - Albion" 
 		dosbox -conf $dosbox/albion.conf
 		exit
 		;;
 	"Arcanum")
 		clear
-		echo "now playing - arcanum"
+		echo "now playing - Arcanum"
 		wine $game/arcanum/arcanum.exe
+		exit
+		;;
+	"Arena")
+		clear
+		echo "now playing - Arena"
+		dosbox -conf $dosbox/arena.conf
 		exit
 		;;
 	"Augustus")
@@ -44,13 +50,13 @@ case $opt in
 		;;
 	"Daggerfall")
 		clear
-		echo "now playing - daggerfall"
+		echo "now playing - Daggerfall, old boys version"
 		dosbox -conf $dosbox/daggerfall.conf
 		exit
 		;;
 	"Daggerfall Unity")
 		clear
-		echo "now playing - daggerfall"
+		echo "now playing - daggerfall, kiddie version"
 		cd $game/dfu/
 		./DaggerfallUnity.x86_64
 		exit
