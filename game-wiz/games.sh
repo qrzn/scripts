@@ -21,7 +21,7 @@ display_center "$txt/wiz.txt"
 # launch options prompt
 PS3="choose game and press ENTER: "
 
-select opt in "Albion" "Arena" "Arcanum" "Augustus" "Daggerfall" "Daggerfall Unity" "Emperor" "Factorio" "Fallout" "Fallout 2" "Fallout New Vegas" "Morrowind" "Master of Orion" "Master of Orion II" "Die Siedler II" "exit"; do
+select opt in "Albion" "Arcanum" "Arena" "Augustus" "Daggerfall - DOS" "Daggerfall - Unity" "Emperor" "Factorio" "Fallout" "Fallout 2" "Fallout New Vegas" "Minetest" "Morrowind" "Master of Orion" "Master of Orion II" "Die Siedler II" "Stardew Valley" "Widelands" "exit"; do
 
 case $opt in
 	"Albion")
@@ -48,13 +48,13 @@ case $opt in
 		augustus-game
 		exit
 		;;
-	"Daggerfall")
+	"Daggerfall - DOS")
 		clear
 		echo "now playing - Daggerfall, old boys version"
 		dosbox -conf $dosbox/daggerfall.conf
 		exit
 		;;
-	"Daggerfall Unity")
+	"Daggerfall - Unity")
 		clear
 		echo "now playing - daggerfall, kiddie version"
 		cd $game/dfu/
@@ -117,6 +117,18 @@ case $opt in
 		clear
 		echo "now playing - Die Siedler II - Gold Edition"
 		dosbox -conf $dosbox/s2.conf
+		exit
+		;;
+	"Stardew Valley")
+		clear
+		echo "now playing - Die Siedler II - Gold Edition"
+		sh ~/games/sv/
+		exit
+		;;
+	"Widelands")
+		clear
+		echo "now playing - Widelands"
+		widelands
 		exit
 		;;
         "exit")
