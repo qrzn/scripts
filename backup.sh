@@ -4,15 +4,14 @@
 clear
 echo "running backup script...yay"
 cd ~/git/.fls
-rm -rv ~/git/.fls/.dosbox && cp -rv ~/.dosbox ~/git/.fls/
-rm -v ~/git/.fls/.vimrc && cp -rv ~/.vimrc ~/git/.fls/
-rm -v ~/git/.fls/.zshrc && cp -rv ~/.zshrc ~/git/.fls/
-rm -v ~/git/.fls/.muttrc && cp -rv ~/.muttrc ~/git/.fls/
-rm -v ~/git/.fls/.bashrc && cp -rv ~/.bashrc ~/git/.fls/
-rm -rv ~/git/.fls/.startpage && cp -rv ~/.startpage ~/git/.fls/
+cp -rv ~/.dosbox ~/git/.fls/
+cp -rv ~/.vimrc ~/git/.fls/
+cp -rv ~/.zshrc ~/git/.fls/
+cp -rv ~/.muttrc ~/git/.fls/
+cp -rv ~/.bashrc ~/git/.fls/
+cp -rv ~/.startpage ~/git/.fls/
 
-cd ~/git/.fls
-git add . 
+git add -all 
 git commit -m 'automated backup script message'
-git push
+git push -u 
 echo 'backup complete!'
