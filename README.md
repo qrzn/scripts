@@ -11,4 +11,13 @@ so far
 * timer - a basic timer
 * wout - workout program
 
-and some minor things not really worth noting.
+and also
+
+* key-loops
+
+which contains keyloops for badly designed yet fun games which make you press certain key combos repeatedly.
+
+dependencies are 
+
+* xdotools
+* bash
