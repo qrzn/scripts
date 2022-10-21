@@ -51,7 +51,7 @@ case $opt in
 	"Daggerfall - DOS")
 		clear
 		echo "now playing - Daggerfall, old boys version"
-		dosbox -conf $dosbox/daggerfall.conf
+		dosbox -conf $dosbox/fall.conf
 		exit
 		;;
 	"Daggerfall - Unity")
