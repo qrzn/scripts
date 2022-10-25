@@ -21,7 +21,7 @@ display_center "$txt/wiz.txt"
 # launch options prompt
 PS3="choose game and press ENTER: "
 
-select opt in "Albion" "Arcanum" "Arena" "Augustus" "Commander Keen" "Daggerfall - DOS" "Daggerfall - Unity" "Emperor" "Exult" "Factorio" "Fallout" "Fallout 2" "Fallout New Vegas" "Minetest" "Morrowind" "Master of Orion" "Master of Orion II" "Die Siedler II" "Stardew Valley" "Widelands" "exit"; do
+select opt in "Albion" "Caster of Magic" "Commander Keen" "Darklands" "Daggerfall" "Exult" "Die Siedler II" "Ultima Underworld II" "Widelands" "exit"; do
 
 case $opt in
 	"Albion")
@@ -30,22 +30,10 @@ case $opt in
 		dosbox -conf $dosbox/albion.conf
 		exit
 		;;
-	"Arcanum")
+	"Caster of Magic")
 		clear
-		echo "now playing - Arcanum"
-		wine $game/arcanum/arcanum.exe
-		exit
-		;;
-	"Arena")
-		clear
-		echo "now playing - Arena"
-		dosbox -conf $dosbox/arena.conf
-		exit
-		;;
-	"Augustus")
-		clear
-		echo "now playing - Augustus"
-		augustus-game
+		echo "now playing - Caster of Magic"
+		dosbox -conf $dosbox/com.conf
 		exit
 		;;
 	"Commander Keen")
@@ -54,23 +42,10 @@ case $opt in
 		dosbox -conf $dosbox/keen.conf
 		exit
 		;;
-	"Daggerfall - DOS")
+	"Daggerfall")
 		clear
 		echo "now playing - Daggerfall, old boys version"
 		dosbox -conf $dosbox/fall.conf
-		exit
-		;;
-	"Daggerfall - Unity")
-		clear
-		echo "now playing - daggerfall, kiddie version"
-		cd $game/dfu/
-		./DaggerfallUnity.x86_64
-		exit
-		;;
-	"Emperor")
-		clear
-		echo "now playing - emperor"
-		wine $game/arcanum/emperor.exe
 		exit
 		;;
 	"Exult")
@@ -79,62 +54,10 @@ case $opt in
 		exult
 		exit
 		;;
-	"Factorio")
-		clear
-		echo "now playing - Factorio"
-		cd $game/factorio/bin/x64
-		./factorio
-		exit
-		;;
-	"Fallout")
-		clear
-		echo "now playing - Fallout"
-		cd $game/fallout/
-		wine falloutw.exe
-		exit
-		;;
-	"Fallout 2")
-		clear
-		echo "now playing - Fallout 2"
-		cd $game/fallout2/
-		wine fallout2.exe
-		exit
-		;;
-	"Fallout New Vegas")
-		clear
-		echo "now playing - Fallout - New Vegas"
-		cd $game/fnv
-		wine nvse_loader.exe
-		exit
-		;;
-	"Master of Orion")
-		clear
-		echo "now playing - Master of Orion"
-		dosbox -conf $dosbox/moo.conf
-		exit
-		;;
-	"Master of Orion II")
-		clear
-		echo "now playing - Master of Orion II - Battle at Antares"
-		dosbox -conf $dosbox/moo2.conf
-		exit
-		;;
-	"Morrowind")
-		clear
-		echo "now playing - Morrowind"
-		openmw
-		exit
-		;;
 	"Die Siedler II")
 		clear
 		echo "now playing - Die Siedler II - Gold Edition"
 		dosbox -conf $dosbox/s2.conf
-		exit
-		;;
-	"Stardew Valley")
-		clear
-		echo "now playing - Die Siedler II - Gold Edition"
-		sh ~/games/sv/
 		exit
 		;;
 	"Widelands")
