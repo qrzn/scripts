@@ -21,7 +21,7 @@ display_center "$txt/wiz.txt"
 # launch options prompt
 PS3="choose game and press ENTER: "
 
-select opt in "Albion" "Caster of Magic" "Commander Keen" "Darklands" "Daggerfall" "Exult" "Die Siedler II" "Ultima Underworld II" "Widelands" "exit"; do
+select opt in "Albion" "Caster of Magic" "Commander Keen" "Darklands" "Daggerfall" "Daggerfall - Unity" "Emperor" "Exult" "Die Siedler II" "Ultima Underworld II" "Widelands" "exit"; do
 
 case $opt in
 	"Albion")
@@ -46,6 +46,18 @@ case $opt in
 		clear
 		echo "now playing - Daggerfall, old boys version"
 		dosbox -conf $dosbox/fall.conf
+		exit
+		;;
+	"Daggerfall - Unity")
+		clear
+		echo "now playing - Daggerfall - Unity"
+		$game/dfu/DaggerfallUnity.x86_64
+		exit
+		;;
+	"Emperor")
+		clear
+		echo "now playing - emperor"
+		wine $game/emperor/Emperor.exe
 		exit
 		;;
 	"Exult")
