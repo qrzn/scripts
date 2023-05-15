@@ -1,6 +1,5 @@
 #/bin/bash
-# game wizard, minimal version
-# a cli based game launcher
+# dos wizard - based on the infamous game wizard
 # written by qrzn
 
 display_center(){
