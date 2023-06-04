@@ -1,5 +1,26 @@
 import os
 
+# ANSI escape sequences for text colors
+TEXT_COLOR_RED = "\033[31m"
+TEXT_COLOR_GREEN = "\033[32m"
+TEXT_COLOR_YELLOW = "\033[33m"
+TEXT_COLOR_MAGENTA = "\033[35m"
+TEXT_COLOR_RESET = "\033[0m"
+
+# ANSI escape sequences for background colors
+BACKGROUND_COLOR_BLUE = "\033[44m"
+BACKGROUND_COLOR_WHITE = "\033[47m"
+BACKGROUND_COLOR_RESET = "\033[49m"
+
+# ANSI escape sequences for text colors
+TEXT_COLOR_CYAN = "\033[36m"
+TEXT_COLOR_RESET = "\033[0m"
+
+# ANSI escape sequences for background colors
+BACKGROUND_COLOR_BLACK = "\033[40m"
+BACKGROUND_COLOR_RESET = "\033[49m"
+
+
 # Dictionary to hold game categories and their associated games
 game_categories = {
     "DOS": [
@@ -40,7 +61,6 @@ game_categories = {
         "Fallout 2",
         "Fallout New Vegas",
         "OpenMW",
-        "Darklands",
         "Ultima 4-6",
         "Ultima Underworld",
         "Veil of Darkness",
@@ -59,6 +79,7 @@ game_categories = {
         "Siedler 2",
         "Stronghold",
         "Stronghold Crusader",
+        "Stronghold Crusader Extreme",
         "Pharaoh",
         "War Wind",
         "Weltwunder",
@@ -106,6 +127,7 @@ game_categories = {
         "Galactic Civilizations II", 
         "Stronghold", 
         "Stronghold Crusader", 
+        "Stronghold Crusader Extreme",
         "Pharaoh", 
         "War Wind", 
         "Weltwunder", 
@@ -147,19 +169,20 @@ game_commands = {
     "Daggerfall": "dosbox -conf ~/.dosbox/fall.conf",
     "Daggerfall": "dosbox -conf ~/.dosbox/fall.conf",
     # wine
-    "Arcanum": "wine ~/Spiele/wine/Arcanum/Arcanum.exe",
-    "Emperor": "wine ~/Spiele/wine/emperor/Emperor.exe",
-    "Diablo II": "wine ~/Spiele/wine/diablo2/Game.exe",
-    "Fallout": "wine ~/Spiele/wine/fallout/FALLOUTW.exe",
-    "Fallout 2": "wine ~/Spiele/wine/fallout2/fallout2.exe",
-    "Dungeon Keeper II": "wine ~/Spiele/wine/dk2/DKII-DX.exe",
-    "Galactic Civilizations II": "wine ~/Spiele/wine/galciv2/Game.exe",
-    "Stronghold": "wine ~/Spiele/wine/stronghold/Stronghold.exe",
-    "Stronghold Crusader": "wine ~/Spiele/wine/stronghold/Stronghold.exe",
-    "Pharaoh": "wine ~/Spiele/wine/pharaoh/Pharaoh.exe",
-    "War Wind": "wine ~/Spiele/wine/warwind/WW.exe",
-    "Weltwunder": "wine ~/Spiele/wine/c4/Game.exe",
-    "Zeus": "wine ~/Spiele/wine/zeus/Zeus.exe",
+    "Arcanum": "cd ~/Spiele/wine/Arcanum/ && wine Arcanum.exe",
+    "Emperor": "cd ~/Spiele/wine/emperor/ && wine Emperor.exe",
+    "Diablo II": "cd ~/Spiele/wine/diablo2/ && wine Game.exe",
+    "Fallout": "cd ~/Spiele/wine/fallout/ && wine FALLOUTW.exe",
+    "Fallout 2": "cd ~/Spiele/wine/fallout2/ && wine fallout2.exe",
+    "Dungeon Keeper II": "cd ~/Spiele/wine/dk2/ && wine DKII-DX.exe",
+    "Galactic Civilizations II": "cd ~/Spiele/wine/galciv2/ && wine Game.exe",
+    "Stronghold": "cd ~/Spiele/wine/stronghold/ && wine Stronghold.exe",
+    "Stronghold Crusader": "cd ~/Spiele/wine/strongholdchd/ && wine shc.exe",
+    "Stronghold Crusader Extreme": "cd ~/Spiele/wine/strongholdchd/ && wine shc.exe",
+    "Pharaoh": "cd ~/Spiele/wine/pharaoh/ && wine Pharaoh.exe",
+    "War Wind": "cd ~/Spiele/wine/warwind/ && wine WW.exe",
+    "Weltwunder": "cd ~/Spiele/wine/c4/ && wine Game.exe",
+    "Zeus": "cd ~/Spiele/wine/zeus/ && wine Zeus.exe",
     # Native
     "Daggerfall Unity": "~/Spiele/dfu/DaggerfallUnity.x86_64",
     "Don't Starve": "~/Spiele/dontstarve/start.sh",
@@ -177,8 +200,8 @@ game_commands = {
 }
 
 def header():
-    print("-" * 50)
-    print("{:^50}".format("Game Serpent Wizard 1.0"))
+    print(BACKGROUND_COLOR_BLACK + TEXT_COLOR_MAGENTA + "-" * 50)
+    print(BACKGROUND_COLOR_BLACK + TEXT_COLOR_MAGENTA + "{:^50}".format("Game Serpent Wizard 1.0"))
     print("{:^50}".format("by qrzn"))
     print("-" * 50)
 
@@ -190,7 +213,7 @@ def display_categories():
     # Function to display available game categories
     clear_screen()
     header()
-    print("Choose Thy Categorie:")
+    print(BACKGROUND_COLOR_BLACK + TEXT_COLOR_MAGENTA + "Choose Thy Categorie:")
     index = 1
     for category in sorted(game_categories.keys()):
         print("{}. {}".format(index, category))
