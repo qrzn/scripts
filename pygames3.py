@@ -57,17 +57,31 @@ class GameLauncher(tk.Frame):
         selected_game = self.game_listbox.get(tk.ACTIVE)
         # Launch the game using the appropriate command
         if selected_game == "Albion":
-            os.system("dosbox -conf ~/dosbox/albion.conf")
+            os.system("dosbox -conf ~/.dosbox/albion.conf")
+        # Wine games template
         elif selected_game == "Arcanum":
             os.system("cd ~/Spiele/Arcanum/ && wine Arcanum.exe")
         elif selected_game == "Der erste Kaiser":
             os.system("cd ~/Spiele/emperor/ && wine Emperor.exe")
+            # DOS Games template
+        elif selected_game == "Albion":
+            os.system("dosbox -conf ~/.dosbox/Albion.conf")
+        elif selected_game == "Caster of Magic":
+            os.system("dosbox -conf ~/.dosbox/com.conf")
+        elif selected_game == "Commander Keen":
+            os.system("dosbox -conf ~/.dosbox/fall.conf")
+        elif selected_game == "Daggerfall":
+            os.system("dosbox -conf ~/.dosbox/fall.conf")
+        elif selected_game == "Daggerfall":
+            os.system("dosbox -conf ~/.dosbox/fall.conf")
+        elif selected_game == "Daggerfall":
+            os.system("dosbox -conf ~/.dosbox/fall.conf")
+        # native games template
+        
         elif selected_game == "Daggerfall Unity":
             os.system("cd ~/Spiele/dfu && ./DaggerfallUnity.x86_64")
-        elif selected_game == "Widelands":
-            os.system("widelands")
-        elif selected_game == "Widelands":
-            os.system("widelands")
+        elif selected_game == "Exult":
+            os.system("exult")
         elif selected_game == "Widelands":
             os.system("widelands")
         elif selected_game == "Widelands":
