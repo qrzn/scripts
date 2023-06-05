@@ -1,0 +1,386 @@
+{
+    "000000": {
+        "hexagram": "Hexagram 1",
+        "image": "Image of Hexagram 1",
+        "judgment": "Judgment of Hexagram 1",
+        "description": "Description of Hexagram 1"
+    },
+    "000001": {
+        "hexagram": "Hexagram 2",
+        "image": "Image of Hexagram 2",
+        "judgment": "Judgment of Hexagram 2",
+        "description": "Description of Hexagram 2"
+    },
+    "000010": {
+        "hexagram": "Hexagram 3",
+        "image": "Image of Hexagram 3",
+        "judgment": "Judgment of Hexagram 3",
+        "description": "Description of Hexagram 3"
+    },
+    "000011": {
+        "hexagram": "Hexagram 4",
+        "image": "Image of Hexagram 4",
+        "judgment": "Judgment of Hexagram 4",
+        "description": "Description of Hexagram 4"
+    },
+    "000100": {
+        "hexagram": "Hexagram 5",
+        "image": "Image of Hexagram 5",
+        "judgment": "Judgment of Hexagram 5",
+        "description": "Description of Hexagram 5"
+    },
+    "000101": {
+        "hexagram": "Hexagram 6",
+        "image": "Image of Hexagram 6",
+        "judgment": "Judgment of Hexagram 6",
+        "description": "Description of Hexagram 6"
+    },
+    "000110": {
+        "hexagram": "Hexagram 7",
+        "image": "Image of Hexagram 7",
+        "judgment": "Judgment of Hexagram 7",
+        "description": "Description of Hexagram 7"
+    },
+    "000111": {
+        "hexagram": "Hexagram 8",
+        "image": "Image of Hexagram 8",
+        "judgment": "Judgment of Hexagram 8",
+        "description": "Description of Hexagram 8"
+    },
+    "001000": {
+        "hexagram": "Hexagram 9",
+        "image": "Image of Hexagram 9",
+        "judgment": "Judgment of Hexagram 9",
+        "description": "Description of Hexagram 9"
+    },
+    "001001": {
+        "hexagram": "Hexagram 10",
+        "image": "Image of Hexagram 10",
+        "judgment": "Judgment of Hexagram 10",
+        "description": "Description of Hexagram 10"
+    },
+    "001010": {
+        "hexagram": "Hexagram 11",
+        "image": "Image of Hexagram 11",
+        "judgment": "Judgment of Hexagram 11",
+        "description": "Description of Hexagram 11"
+    },
+    "001011": {
+        "hexagram": "Hexagram 12",
+        "image": "Image of Hexagram 12",
+        "judgment": "Judgment of Hexagram 12",
+        "description": "Description of Hexagram 12"
+    },
+    "001100": {
+        "hexagram": "Hexagram 13",
+        "image": "Image of Hexagram 13",
+        "judgment": "Judgment of Hexagram 13",
+        "description": "Description of Hexagram 13"
+    },
+    "001101": {
+        "hexagram": "Hexagram 14",
+        "image": "Image of Hexagram 14",
+        "judgment": "Judgment of Hexagram 14",
+        "description": "Description of Hexagram 14"
+    },
+    "001110": {
+        "hexagram": "Hexagram 15",
+        "image": "Image of Hexagram 15",
+        "judgment": "Judgment of Hexagram 15",
+        "description": "Description of Hexagram 15"
+    },
+    "001111": {
+        "hexagram": "Hexagram 16",
+        "image": "Image of Hexagram 16",
+        "judgment": "Judgment of Hexagram 16",
+        "description": "Description of Hexagram 16"
+    },
+    "010000": {
+        "hexagram": "Hexagram 17",
+        "image": "Image of Hexagram 17",
+        "judgment": "Judgment of Hexagram 17",
+        "description": "Description of Hexagram 17"
+    },
+    "010001": {
+        "hexagram": "Hexagram 18",
+        "image": "Image of Hexagram 18",
+        "judgment": "Judgment of Hexagram 18",
+        "description": "Description of Hexagram 18"
+    },
+    "010010": {
+        "hexagram": "Hexagram 19",
+        "image": "Image of Hexagram 19",
+        "judgment": "Judgment of Hexagram 19",
+        "description": "Description of Hexagram 19"
+    },
+    "010011": {
+        "hexagram": "Hexagram 20",
+        "image": "Image of Hexagram 20",
+        "judgment": "Judgment of Hexagram 20",
+        "description": "Description of Hexagram 20"
+    },
+    "010100": {
+        "hexagram": "Hexagram 21",
+        "image": "Image of Hexagram 21",
+        "judgment": "Judgment of Hexagram 21",
+        "description": "Description of Hexagram 21"
+    },
+    "010101": {
+        "hexagram": "Hexagram 22",
+        "image": "Image of Hexagram 22",
+        "judgment": "Judgment of Hexagram 22",
+        "description": "Description of Hexagram 22"
+    },
+    "010110": {
+        "hexagram": "Hexagram 23",
+        "image": "Image of Hexagram 23",
+        "judgment": "Judgment of Hexagram 23",
+        "description": "Description of Hexagram 23"
+    },
+    "010111": {
+        "hexagram": "Hexagram 24",
+        "image": "Image of Hexagram 24",
+        "judgment": "Judgment of Hexagram 24",
+        "description": "Description of Hexagram 24"
+    },
+    "011000": {
+        "hexagram": "Hexagram 25",
+        "image": "Image of Hexagram 25",
+        "judgment": "Judgment of Hexagram 25",
+        "description": "Description of Hexagram 25"
+    },
+    "011001": {
+        "hexagram": "Hexagram 26",
+        "image": "Image of Hexagram 26",
+        "judgment": "Judgment of Hexagram 26",
+        "description": "Description of Hexagram 26"
+    },
+    "011010": {
+        "hexagram": "Hexagram 27",
+        "image": "Image of Hexagram 27",
+        "judgment": "Judgment of Hexagram 27",
+        "description": "Description of Hexagram 27"
+    },
+    "011011": {
+        "hexagram": "Hexagram 28",
+        "image": "Image of Hexagram 28",
+        "judgment": "Judgment of Hexagram 28",
+        "description": "Description of Hexagram 28"
+    },
+    "011100": {
+        "hexagram": "Hexagram 29",
+        "image": "Image of Hexagram 29",
+        "judgment": "Judgment of Hexagram 29",
+        "description": "Description of Hexagram 29"
+    },
+    "011101": {
+        "hexagram": "Hexagram 30",
+        "image": "Image of Hexagram 30",
+        "judgment": "Judgment of Hexagram 30",
+        "description": "Description of Hexagram 30"
+    },
+    "011110": {
+        "hexagram": "Hexagram 31",
+        "image": "Image of Hexagram 31",
+        "judgment": "Judgment of Hexagram 31",
+        "description": "Description of Hexagram 31"
+    },
+    "011111": {
+        "hexagram": "Hexagram 32",
+        "image": "Image of Hexagram 32",
+        "judgment": "Judgment of Hexagram 32",
+        "description": "Description of Hexagram 32"
+    },
+    "100000": {
+        "hexagram": "Hexagram 33",
+        "image": "Image of Hexagram 33",
+        "judgment": "Judgment of Hexagram 33",
+        "description": "Description of Hexagram 33"
+    },
+    "100001": {
+        "hexagram": "Hexagram 34",
+        "image": "Image of Hexagram 34",
+        "judgment": "Judgment of Hexagram 34",
+        "description": "Description of Hexagram 34"
+    },
+    "100010": {
+        "hexagram": "Hexagram 35",
+        "image": "Image of Hexagram 35",
+        "judgment": "Judgment of Hexagram 35",
+        "description": "Description of Hexagram 35"
+    },
+    "100011": {
+        "hexagram": "Hexagram 36",
+        "image": "Image of Hexagram 36",
+        "judgment": "Judgment of Hexagram 36",
+        "description": "Description of Hexagram 36"
+    },
+    "100100": {
+        "hexagram": "Hexagram 37",
+        "image": "Image of Hexagram 37",
+        "judgment": "Judgment of Hexagram 37",
+        "description": "Description of Hexagram 37"
+    },
+    "100101": {
+        "hexagram": "Hexagram 38",
+        "image": "Image of Hexagram 38",
+        "judgment": "Judgment of Hexagram 38",
+        "description": "Description of Hexagram 38"
+    },
+    "100110": {
+        "hexagram": "Hexagram 39",
+        "image": "Image of Hexagram 39",
+        "judgment": "Judgment of Hexagram 39",
+        "description": "Description of Hexagram 39"
+    },
+    "100111": {
+        "hexagram": "Hexagram 40",
+        "image": "Image of Hexagram 40",
+        "judgment": "Judgment of Hexagram 40",
+        "description": "Description of Hexagram 40"
+    },
+    "101000": {
+        "hexagram": "Hexagram 41",
+        "image": "Image of Hexagram 41",
+        "judgment": "Judgment of Hexagram 41",
+        "description": "Description of Hexagram 41"
+    },
+    "101001": {
+        "hexagram": "Hexagram 42",
+        "image": "Image of Hexagram 42",
+        "judgment": "Judgment of Hexagram 42",
+        "description": "Description of Hexagram 42"
+    },
+    "101010": {
+        "hexagram": "Hexagram 43",
+        "image": "Image of Hexagram 43",
+        "judgment": "Judgment of Hexagram 43",
+        "description": "Description of Hexagram 43"
+    },
+    "101011": {
+        "hexagram": "Hexagram 44",
+        "image": "Image of Hexagram 44",
+        "judgment": "Judgment of Hexagram 44",
+        "description": "Description of Hexagram 44"
+    },
+    "101100": {
+        "hexagram": "Hexagram 45",
+        "image": "Image of Hexagram 45",
+        "judgment": "Judgment of Hexagram 45",
+        "description": "Description of Hexagram 45"
+    },
+    "101101": {
+        "hexagram": "Hexagram 46",
+        "image": "Image of Hexagram 46",
+        "judgment": "Judgment of Hexagram 46",
+        "description": "Description of Hexagram 46"
+    },
+    "101110": {
+        "hexagram": "Hexagram 47",
+        "image": "Image of Hexagram 47",
+        "judgment": "Judgment of Hexagram 47",
+        "description": "Description of Hexagram 47"
+    },
+    "101111": {
+        "hexagram": "Hexagram 48",
+        "image": "Image of Hexagram 48",
+        "judgment": "Judgment of Hexagram 48",
+        "description": "Description of Hexagram 48"
+    },
+    "110000": {
+        "hexagram": "Hexagram 49",
+        "image": "Image of Hexagram 49",
+        "judgment": "Judgment of Hexagram 49",
+        "description": "Description of Hexagram 49"
+    },
+    "110001": {
+        "hexagram": "Hexagram 50",
+        "image": "Image of Hexagram 50",
+        "judgment": "Judgment of Hexagram 50",
+        "description": "Description of Hexagram 50"
+    },
+    "110010": {
+        "hexagram": "Hexagram 51",
+        "image": "Image of Hexagram 51",
+        "judgment": "Judgment of Hexagram 51",
+        "description": "Description of Hexagram 51"
+    },
+    "110011": {
+        "hexagram": "Hexagram 52",
+        "image": "Image of Hexagram 52",
+        "judgment": "Judgment of Hexagram 52",
+        "description": "Description of Hexagram 52"
+    },
+    "110100": {
+        "hexagram": "Hexagram 53",
+        "image": "Image of Hexagram 53",
+        "judgment": "Judgment of Hexagram 53",
+        "description": "Description of Hexagram 53"
+    },
+    "110101": {
+        "hexagram": "Hexagram 54",
+        "image": "Image of Hexagram 54",
+        "judgment": "Judgment of Hexagram 54",
+        "description": "Description of Hexagram 54"
+    },
+    "110110": {
+        "hexagram": "Hexagram 55",
+        "image": "Image of Hexagram 55",
+        "judgment": "Judgment of Hexagram 55",
+        "description": "Description of Hexagram 55"
+    },
+    "110111": {
+        "hexagram": "Hexagram 56",
+        "image": "Image of Hexagram 56",
+        "judgment": "Judgment of Hexagram 56",
+        "description": "Description of Hexagram 56"
+    },
+    "111000": {
+        "hexagram": "Hexagram 57",
+        "image": "Image of Hexagram 57",
+        "judgment": "Judgment of Hexagram 57",
+        "description": "Description of Hexagram 57"
+    },
+    "111001": {
+        "hexagram": "Hexagram 58",
+        "image": "Image of Hexagram 58",
+        "judgment": "Judgment of Hexagram 58",
+        "description": "Description of Hexagram 58"
+    },
+    "111010": {
+        "hexagram": "Hexagram 59",
+        "image": "Image of Hexagram 59",
+        "judgment": "Judgment of Hexagram 59",
+        "description": "Description of Hexagram 59"
+    },
+    "111011": {
+        "hexagram": "Hexagram 60",
+        "image": "Image of Hexagram 60",
+        "judgment": "Judgment of Hexagram 60",
+        "description": "Description of Hexagram 60"
+    },
+    "111100": {
+        "hexagram": "Hexagram 61",
+        "image": "Image of Hexagram 61",
+        "judgment": "Judgment of Hexagram 61",
+        "description": "Description of Hexagram 61"
+    },
+    "111101": {
+        "hexagram": "Hexagram 62",
+        "image": "Image of Hexagram 62",
+        "judgment": "Judgment of Hexagram 62",
+        "description": "Description of Hexagram 62"
+    },
+    "111110": {
+        "hexagram": "Hexagram 63",
+        "image": "Image of Hexagram 63",
+        "judgment": "Judgment of Hexagram 63",
+        "description": "Description of Hexagram 63"
+    },
+    "111111": {
+        "hexagram": "Hexagram 64",
+        "image": "Image of Hexagram 64",
+        "judgment": "Judgment of Hexagram 64",
+        "description": "Description of Hexagram 64"
+    }
+}
