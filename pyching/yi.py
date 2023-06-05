@@ -1,6 +1,7 @@
 import json
 import random
 import os
+import textwrap
 
 class Hexagram:
     def __init__(self, hexagram, image, judgment, description):
@@ -14,8 +15,11 @@ def clear_screen():
 
 def display_top_bar():
     clear_screen()
-    top_bar = "========== pyching =========="
-    print(top_bar)
+
+    print("-" * 50)
+    print("{:^50}".format("Pythonian I Ching"))
+    print("{:^50}".format("by qrzn"))
+    print("-" * 50)
 
 def generate_hexagram():
     hexagram = ""
@@ -36,13 +40,13 @@ def display_hexagram(hexagram):
         elif line == '9':
             lines.append("---o---")
     
-    print("Hexagram:")
+    print("Sequence:")
     for line in lines:
         print(line)
 
 def interpret_hexagram(hexagram):
     # Load interpretations from the JSON file
-    with open("hexagrams.json") as file:
+    with open("int.json") as file:
         interpretations = json.load(file)
     
     interpretation_data = interpretations.get(hexagram)
@@ -61,20 +65,47 @@ def interpret_hexagram(hexagram):
             "Unknown Description"
         )
 
-# Display the top bar
-display_top_bar()
+# Function to prompt for a new reading or exit
 
-# Generate a random hexagram
-random_hexagram = generate_hexagram()
-print("Random Hexagram:", random_hexagram)
+def prompt_new_reading():
+    print("\nPress 'Enter' for a new reading or 'q' to exit...")
+    user_input = input()
+    if user_input.lower() == "q":
+        return False
+    return True
 
-# Display the hexagram
-display_hexagram(random_hexagram)
+# Main program execution
 
-# Interpret the hexagram
-interpretation = interpret_hexagram(random_hexagram)
-print("Hexagram:", interpretation.hexagram)
-print("Image:", interpretation.image)
-print("Judgment:", interpretation.judgment)
-print("Description:", interpretation.description)
+while True:
 
+    # Display the top bar
+    display_top_bar()
+
+    # Generate a random hexagram
+    random_hexagram = generate_hexagram()
+    print("Hexagram:", random_hexagram)
+
+    # Display the hexagram
+    display_hexagram(random_hexagram)
+
+    # Interpret the hexagram
+    interpretation = interpret_hexagram(random_hexagram)
+    print("Hexagram:", interpretation.hexagram)
+
+    print("Image:")
+    wrapped_image = textwrap.wrap(interpretation.image, width=60)
+    for line in wrapped_image:
+        print(line)
+
+    print("Judgment:")
+    wrapped_judgment = textwrap.wrap(interpretation.judgment, width=60)
+    for line in wrapped_judgment:
+        print(line)
+    print("Description:")
+    wrapped_description = textwrap.wrap(interpretation.description)
+    for line in wrapped_description:
+        print(line)
+    
+    #promt for a new reading or exit
+    if not prompt_new_reading():
+        break
