@@ -46,6 +46,11 @@ def print_header():
     print("-" * 50)
 """
 
+def print_file_with_delay(file_path):
+    with open(file_path, 'r') as file:
+        for line in file:
+            print_with_delay(line)
+
 def print_with_delay(text):
     for char in text:
         print(char, end='', flush=True)
