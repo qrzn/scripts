@@ -1,6 +1,12 @@
 import os
 import json
 import shutil
+import subprocess
+import time
+
+# ANSI escape sequence for text formatting
+TEXT_BOLD = "\033[1m"
+TEXT_RESET = "\033[0m"
 
 # ANSI escape sequences for text colors
 TEXT_COLOR_RED = "\033[31m"
@@ -31,6 +37,8 @@ with open ("game_data.json", "r") as file:
 game_categories = data["categories"]
 game_commands = data["commands"]
 
+
+### old header code
 """
 def print_header():
     print("-" * 50)
@@ -38,12 +46,23 @@ def print_header():
     print("-" * 50)
 """
 
+def print_with_delay(text):
+    for char in text:
+        print(char, end='', flush=True)
+        time.sleep(0.1)
+
+def print_with_delay_header(text):
+    for char in text:
+        print(char, end='', flush=True)
+        time.sleep(0.001)
+# header, placed in the center
+
 def print_header():
     columns, _ = shutil.get_terminal_size()
     with open("header2.txt", 'r') as file:
         for line in file:
             line = line.rstrip('\n')
-            print(f"{line.center(columns)}")
+            print(TEXT_COLOR_MAGENTA + f"{line.center(columns)}" + TEXT_COLOR_RESET)
 
 def clear_screen():
     # Function to clear the console screen
@@ -53,10 +72,10 @@ def display_categories():
     # Function to display available game categories
     clear_screen()
     print_header()
-    print("Choose Thy Categorie:")
+    print(TEXT_COLOR_MAGENTA + TEXT_BOLD + "Categories:" + TEXT_COLOR_RESET)
     index = 1
     for category in sorted(game_categories.keys()):
-        print("{}. {}".format(index, category))
+        print(TEXT_BOLD + TEXT_COLOR_GREEN + "{}. {}".format(index, category)+ TEXT_RESET)
         index += 1
     print()
 
@@ -64,11 +83,11 @@ def display_games(category):
     # Function to display games in a specific category
     clear_screen()
     print_header()
-    print("Games in the '{}' Category:".format(category))
+    print(TEXT_BOLD + TEXT_COLOR_MAGENTA + "Games in the '{}' Category:".format(category) + TEXT_RESET)
     games = sorted(game_categories[category])
     index = 1
     for game in games:
-        print("{}. {}".format(index, game))
+        print(TEXT_BOLD + TEXT_COLOR_GREEN + "{}. {}".format(index, game) + TEXT_RESET)
         index += 1
     print()
 
@@ -81,14 +100,44 @@ def launch_game(game):
         os.system(command)
         print("Enjoy Thy game!")
     else:
-        print("Thou art a Fool! There is no command to launch thy game.")
+        print(TEXT_COLOR_RED + TEXT_BOLD + "Thou art a Fool! There is no command to launch thy game." + TEXT_RESET)
     input("Press Enter to continue...")
     display_categories()
 
-# Main game launcher loop
+
+""" Add the following code if you want to have more options for easter eggs, config etc.
+def display_options():
+    # Function to display additional options
+    print("Additional Options:")
+    print("a. Edit Game Database")
+    print("b. Reload Game Database")
+    print("c. PRESS AT THY OWN RISK & PERIL!")
+    print()
+
+def handle_option_selection(option):
+    # Function to handle the selected option
+    clear_screen()
+    print_header()
+    if option == 'a':
+        print("launching vim to edit gmsdata.py")
+        time.sleep(2) # Sleep for 2 seconds
+        subprocess.run(["nvim", "gmsdata.py"])
+    elif option == 'b':
+        print("You selected Option b.")
+        subprocess.run(["python3", "gmsdata.py"])
+    elif option == 'c':
+        print("You selected Option c.")
+    else:
+        print("Invalid option.")
+"""
+
+
 while True:
     display_categories()
-    category_choice = input("Choose Thy Categorie [1-9] (or 'q' to exit): ")
+    """
+    display_options()
+    """
+    category_choice = input(TEXT_COLOR_MAGENTA + TEXT_BOLD + "Choose Thy Categorie [1-9] (or 'q' to exit): ")
     if category_choice == "q":
         break
     elif category_choice.isdigit():
@@ -97,7 +146,7 @@ while True:
             categories = sorted(game_categories.keys())
             selected_category = categories[category_choice - 1]
             display_games(selected_category)
-            game_choice = input("Choose Thy Game number (or go 'b'ack or 'q'uit): ")
+            game_choice = input(TEXT_BOLD + TEXT_COLOR_MAGENTA + "Choose Thy Game number (or go 'b'ack or 'q'uit): " + TEXT_RESET)
             if game_choice == "b":
                 continue
             elif game_choice == "q":
@@ -117,6 +166,16 @@ while True:
         else:
             print("Invalid category selection!")
             input("Press Enter to continue...")
+
+            """ Game loop code for additional options selectable with alpha
+    elif category_choice.isalpha() and len(category_choice) == 1:
+        category_choice = category_choice.lower()
+        if category_choice in ('a', 'b', 'c'):
+            handle_option_selection(category_choice)
+        else:
+            print("Invalid option!")
+            input("Press Enter to continue...")
     else:
         print("Invalid input!")
         input("Press Enter to continue...")
+        """

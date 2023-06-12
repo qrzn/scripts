@@ -2,31 +2,6 @@ import json
 
 # Dictionary to hold game categories and their associated games
 game_categories = {
-    "DOS": [
-        "Albion",
-        "Arena",
-        "Ascendancy",
-        "Centurion",
-        "Civilization",
-        "Caster of Magic",
-        "Commander Keen", 
-        "Daggerfall", 
-        "Darklands", 
-        "Duke Nukem 3D", 
-        "Dune II", 
-        "Master of Magic", 
-        "Master of Orion", 
-        "Master of Orion II - Battle at Antares", 
-        "Pirates!", 
-        "Ultima", 
-        "Quake", 
-        "Siedler 2", 
-        "Shadow Warrior", 
-        "Ultima", 
-        "Ultima Underworld",
-        "Veil of Darkness", 
-        "Zeliard"
-        ],
     "RPG": [
         "Albion",
         "Arena",
@@ -45,17 +20,12 @@ game_categories = {
         "Veil of Darkness",
         ],
     "Strategy": [
-        "Ascendancy",
-        "Civilization",
         "Centurion",
         "Dungeon Keeper II",
         "Factorio",
         "Emperor",
-        "Caster of Magic",
-        "Master of Magic",
-        "Master of Orion",
-        "Master of Orion II - Battle at Antares",
         "Return to the Roots",
+        "Siedler 2 modded",
         "Siedler 2",
         "Stronghold",
         "Stronghold Crusader",
@@ -76,55 +46,25 @@ game_categories = {
         ],
     "4X": [
         "Civilization",
+        "Ascendancy",
         "Master of Magic",
         "Master of Orion",
         "Caster of Magic",
         "Master of Orion II - Battle at Antares",
-
         ],
-    "Steam": [
+    "Misc": [
         "Civilization",
+        "Ascendancy",
         "Master of Magic",
         "Master of Orion",
         "Caster of Magic",
         "Master of Orion II - Battle at Antares",
-
         ],
     "Indie": [
         "Don't Starve",
         "Factorio",
         "Starbound",
         "Stardew Valley",
-        ],
-    "Wine": [
-        "Arcanum", 
-        "Emperor", 
-        "Diablo II", 
-        "Dungeon Keeper II", 
-        "Fallout", 
-        "Fallout 2", 
-        "Fallout New Vegas", 
-        "Galactic Civilizations II", 
-        "Stronghold", 
-        "Stronghold Crusader", 
-        "Stronghold Crusader Extreme",
-        "Pharaoh", 
-        "War Wind", 
-        "Weltwunder", 
-        "Zeus"
-        ],
-    "Native": [
-        "Exult", 
-        "Factorio", 
-        "Don't Starve", 
-        "Daggerfall Unity", 
-        "Return to the Roots", 
-        "OpenMW", 
-        "Stardew Valley", 
-        "Starbound", 
-        "The Ur-Quan Masters",
-        "Widelands",
-        "Valhalla"
         ],
     "Emulators": ["RetroArch", "ScummVM"],
 }
@@ -138,8 +78,10 @@ game_commands = {
     "Commander Keen": "dosbox -conf ~/.dosbox/keen.conf",
     "Daggerfall": "dosbox -conf ~/.dosbox/fall.conf",
     "Dune 2": "dosbox -conf ~/.dosbox/dune2.conf",
-    "Siedler 2": "dosbox -conf ~/.dosbox/s2.conf",
+    "Siedler 2 modded": "dosbox -conf ~/.dosbox/s2.conf",
+    "Siedler 2": "dosbox -conf ~/.dosbox/siedler2.conf",
     "Master of Orion": "dosbox -conf ~/.dosbox/moo.conf",
+    "Master of Orion II - Battle at Antares": "dosbox -conf ~/.dosbox/moo2.conf",
     "Master of Magic": "dosbox -conf ~/.dosbox/mom.conf",
     "Ultima 4-6": "dosbox -conf ~/.dosbox/ultima.conf",
     "Ultima Underworld": "dosbox -conf ~/.dosbox/uuw.conf",
@@ -190,3 +132,4 @@ data = {
 with open("game_data.json", "w") as file:
     json.dump(data, file)
 
+print("Game Data JSON file generated successfully.")
