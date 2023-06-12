@@ -54,7 +54,7 @@ def print_file_with_delay(file_path):
 def print_with_delay(text):
     for char in text:
         print(char, end='', flush=True)
-        time.sleep(0.1)
+        time.sleep(0.01)
 
 def print_with_delay_header(text):
     for char in text:
@@ -62,11 +62,19 @@ def print_with_delay_header(text):
         time.sleep(0.001)
 # header, placed in the center
 
+def print_ddate():
+    columns, _ = shutil.get_terminal_size()
+    print_with_delay("Greetings, Master!\n")
+    os.system('ddate')
+    os.system('date')
+    print("\n")
+
+# Print the header, make it so it displays in the center
 def print_header():
     columns, _ = shutil.get_terminal_size()
     with open("header2.txt", 'r') as file:
         for line in file:
-            line = line.rstrip('\n')
+            line = line.rstrip('\n') # remove unneccessary crud
             print(TEXT_COLOR_MAGENTA + f"{line.center(columns)}" + TEXT_COLOR_RESET)
 
 def clear_screen():
@@ -99,14 +107,19 @@ def display_games(category):
 def launch_game(game):
     # Function to launch a selected game
     clear_screen()
-    print("Launching {}...".format(game))
+    print_header()
+    print_with_delay(TEXT_BOLD + TEXT_COLOR_MAGENTA + "Launching {}...\n".format(game) + TEXT_RESET)
     if game in game_commands:
         command = game_commands[game]
         os.system(command)
-        print("Enjoy Thy game!")
+        clear_screen()
+        print_header()
+        print_with_delay("I hope you had fun playing {}!\n".format(game))
     else:
-        print(TEXT_COLOR_RED + TEXT_BOLD + "Thou art a Fool! There is no command to launch thy game." + TEXT_RESET)
-    input("Press Enter to continue...")
+        clear_screen()
+        print_header()
+        print_with_delay(TEXT_COLOR_RED + TEXT_BOLD + "The Wizard says: Thou art a Fool! There is no command to launch {}!\n".format(game) + TEXT_RESET)
+    input("\nPress Enter to continue...")
     display_categories()
 
 

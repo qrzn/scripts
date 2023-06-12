@@ -27,14 +27,14 @@ def main_menu_func():
         play_sound('ui_hacking_charscroll.wav')
         display_center('greeterheader.txt')
         print_with_delay('Personal Terminal "Proto-Boy" Manufactured by RobCo \n')
-        print_with_delay('___________________________________________________ \n')
+        print_with_delay('___________________________________________________ \n\n')
         play_sound('ui_hacking_charscroll.wav')
-        print_with_delay('What would you like to do?\n')
+        print_with_delay('What would you like to do?\n\n')
         options = [
             "View Journal Entries",
             "Log a Journal Entry",
             "Delete a Journal Entry",
-            "Proceed to Desktop"
+            "Proceed to Desktop\n"
         ]
         choice = select_option(options)
         if choice == 1:
