@@ -1,3 +1,4 @@
+
 import os
 import json
 import shutil
@@ -54,13 +55,23 @@ def print_file_with_delay(file_path):
 def print_with_delay(text):
     for char in text:
         print(char, end='', flush=True)
-        time.sleep(0.01)
+        time.sleep(2.5)
 
 def print_with_delay_header(text):
     for char in text:
         print(char, end='', flush=True)
-        time.sleep(0.001)
-# header, placed in the center
+        time.sleep(1.5)
+
+# print one line strings in the center with delay
+def display_center_text(text):
+    columns = shutil.get_terminal_size().columns
+    centered_text = text.rstrip().center(columns)
+    print_with_delay(centered_text)
+
+def greeter():
+    clear_screen()
+    display_center_text("Greetings, Master!")
+    input("Press Enter to continue...")
 
 def print_ddate():
     columns, _ = shutil.get_terminal_size()
@@ -151,6 +162,7 @@ def handle_option_selection(option):
 
 
 while True:
+    greeter()
     display_categories()
     """
     display_options()

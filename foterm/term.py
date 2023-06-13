@@ -3,12 +3,22 @@ import shutil
 import subprocess
 import time
 
-
+"""
+def print_with_delay(text, delay=0.01):
+    print(text)
+    time.sleep(delay)
+"""
 def print_with_delay(text):
     for char in text:
         print(char, end='', flush=True)
         time.sleep(0.01)
 
+def display_center_text(text):
+    columns = shutil.get_terminal_size().columns
+    centered_text = text.rstrip().center(columns)
+    print_with_delay(centered_text)
+
+# print with delay, centered
 def display_center(file_path):
     columns = shutil.get_terminal_size().columns
     with open(file_path, 'r') as file:
@@ -16,6 +26,7 @@ def display_center(file_path):
             line = line.rstrip('\n')
             print_with_delay(line.center(columns))
 
+# print with delay, uncentered
 def print_file_with_delay(file_path):
     with open(file_path, 'r') as file:
         for line in file:
@@ -26,8 +37,8 @@ def main_menu_func():
         clear_screen()
         play_sound('ui_hacking_charscroll.wav')
         display_center('greeterheader.txt')
-        print_with_delay('Personal Terminal "Proto-Boy" Manufactured by RobCo \n')
-        print_with_delay('___________________________________________________ \n\n')
+        display_center_text('Personal Terminal "Proto-Boy" Manufactured by RobCo \n')
+        display_center_text('___________________________________________________ \n\n')
         play_sound('ui_hacking_charscroll.wav')
         print_with_delay('What would you like to do?\n\n')
         options = [

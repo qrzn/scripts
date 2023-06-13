@@ -1,4 +1,10 @@
 import json
+import time
+
+def print_with_delay(text):
+    for char in text:
+        print(char, end='', flush=True)
+        time.sleep(0.01)
 
 # Dictionary to hold game categories and their associated games
 game_categories = {
@@ -44,6 +50,15 @@ game_categories = {
         "Pirates!",
         "Quake",
         ],
+    "Tools": [
+        "Albion",
+        "Arena",
+        "Commander Keen",
+        "Duke Nukem 3D",
+        "Half-Life",
+        "Pirates!",
+        "Quake",
+        ],
     "4X": [
         "Civilization",
         "Ascendancy",
@@ -66,7 +81,12 @@ game_categories = {
         "Starbound",
         "Stardew Valley",
         ],
-    "Emulators": ["RetroArch", "ScummVM"],
+    "Emulators": [
+        "RetroArch", 
+        "ScummVM",
+        "Dosbox",
+        "Steam"
+        ],
 }
 
 # Dictionary to hold game commands
@@ -120,6 +140,8 @@ game_commands = {
     # Emulators
     "RetroArch": "retroarch",
     "ScummVM": "scummvm",
+    "Dosbox": "dosbox",
+    "Steam": "steam",
 }
 
 # Creating a dictionary to hold both categories and commands
@@ -132,4 +154,4 @@ data = {
 with open("game_data.json", "w") as file:
     json.dump(data, file)
 
-print("Game Data JSON file generated successfully.")
+print_with_delay("Game Data JSON file generated successfully.")
