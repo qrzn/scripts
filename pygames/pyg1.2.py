@@ -38,15 +38,6 @@ with open ("game_data.json", "r") as file:
 game_categories = data["categories"]
 game_commands = data["commands"]
 
-
-### old header code
-"""
-def print_header():
-    print("-" * 50)
-    print("{:^50}".format("Game Lizard"))
-    print("-" * 50)
-"""
-
 def print_file_with_delay(file_path):
     with open(file_path, 'r') as file:
         for line in file:
@@ -56,6 +47,9 @@ def print_with_delay(text):
     for char in text:
         print(char, end='', flush=True)
         time.sleep(0.01)
+
+def play_sound(file_name):
+    subprocess.run(['play', '-q', file_name])
 
 def print_with_delay_header(text):
     for char in text:
@@ -103,9 +97,6 @@ def print_header():
         for line in file:
             line = line.rstrip('\n') # remove unneccessary crud
             print(TEXT_COLOR_MAGENTA + f"{line.center(columns)}" + TEXT_COLOR_RESET)
-
-def play_sound(file_name):
-    subprocess.run(['play', '-q', file_name])
 
 def clear_screen():
     # Function to clear the console screen
@@ -169,7 +160,7 @@ def launch_game(game):
     display_categories()
 
 
-""" Add the following code if you want to have more options for easter eggs, config etc.
+# Add the following code if you want to have more options for easter eggs, config etc.
 def display_options():
     # Function to display additional options
     print("Additional Options:")
@@ -193,14 +184,9 @@ def handle_option_selection(option):
         print("You selected Option c.")
     else:
         print("Invalid option.")
-"""
-
 
 while True:
     display_categories()
-    """
-    display_options()
-    """
     category_choice = input(TEXT_COLOR_MAGENTA + TEXT_BOLD + "Choose Thy Categorie [1-9] (or 'q' to exit): ")
     if category_choice == "q":
         play_sound('ui_hacking_charenter_01.wav')
@@ -238,16 +224,3 @@ while True:
             play_sound('ui_hacking_passbad.wav')
             print("Invalid category selection!")
             input("Press Enter to continue...")
-
-            """ Game loop code for additional options selectable with alpha
-    elif category_choice.isalpha() and len(category_choice) == 1:
-        category_choice = category_choice.lower()
-        if category_choice in ('a', 'b', 'c'):
-            handle_option_selection(category_choice)
-        else:
-            print("Invalid option!")
-            input("Press Enter to continue...")
-    else:
-        print("Invalid input!")
-        input("Press Enter to continue...")
-        """
