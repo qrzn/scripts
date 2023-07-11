@@ -1,0 +1,8 @@
+Token
+MTEyMDI2MjYyMTE2MjExMTAxNg.GuX7J6.nqRy39VK1DeuLTYvjFtluUwm2TNTFN5KfraIO8
+
+Client ID
+1120262621162111016
+
+Invite-Link
+https://discord.com/oauth2/authorize?client_id=1120262621162111016&scope=bot
