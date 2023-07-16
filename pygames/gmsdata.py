@@ -16,13 +16,15 @@ game_categories = {
         "Daggerfall Unity",
         "Darklands",
         "Diablo II",
-        "Exult",
+        "Ultimat 7 - Exult",
         "Fallout",
         "Fallout 2",
         "Fallout New Vegas",
         "OpenMW",
         "Ultima 4-6",
+        "Ultima 8",
         "Ultima Underworld",
+        "Ultima Underworld 2",
         "Veil of Darkness",
         "Sakura Dungeon",
         "Legend of Grimrock",
@@ -33,8 +35,8 @@ game_categories = {
         "Dungeon Keeper II",
         "Factorio",
         "Emperor",
+        "Earth 2160",
         "Return to the Roots",
-        "Siedler 2 modded",
         "Siedler 2",
         "Stronghold",
         "Stronghold Crusader",
@@ -49,22 +51,21 @@ game_categories = {
         "Apotheon",
         "CrossCode",
         "Commander Keen",
+        "Gravity Circuit",
         "Lost Ruins",
         "Duke Nukem 3D",
         "Half-Life",
         "Pirates!",
         "Quake",
         ],
-    "Tools": [
-        "Albion",
-        "Arena",
-        "Commander Keen",
-        "Duke Nukem 3D",
-        "Half-Life",
-        "Pirates!",
-        "Quake",
+    "Adventure": [
+        "Amnesia - The Dark Descent",
+        "Amnesia - A Machine for Pigs",
+        "Shadow of the Comet",
+        "Broken Sword",
+        "Broken Sword II",
         ],
-    "4X": [
+     "4X": [
         "Civilization",
         "Civilization V",
         "Civilization VI",
@@ -93,14 +94,13 @@ game_categories = {
 
 # Dictionary to hold game commands
 game_commands = {
-    # DOS
+    # DOS, games that run in dosbox
     "Albion": "dosbox -conf ~/.dosbox/albion.conf",
     "Arena": "dosbox -conf ~/.dosbox/arena.conf",
     "Caster of Magic": "dosbox -conf ~/.dosbox/com.conf",
     "Commander Keen": "dosbox -conf ~/.dosbox/keen.conf",
     "Daggerfall": "dosbox -conf ~/.dosbox/fall.conf",
     "Dune 2": "dosbox -conf ~/.dosbox/dune2.conf",
-    "Siedler 2 modded": "dosbox -conf ~/.dosbox/s2.conf",
     "Siedler 2": "dosbox -conf ~/.dosbox/siedler2.conf",
     "Master of Orion": "dosbox -conf ~/.dosbox/moo.conf",
     "Master of Orion II - Battle at Antares": "dosbox -conf ~/.dosbox/moo2.conf",
@@ -108,12 +108,16 @@ game_commands = {
     "Ultima 4-6": "dosbox -conf ~/.dosbox/ultima.conf",
     "Ultima Underworld": "dosbox -conf ~/.dosbox/uuw.conf",
     "Pirates!": "dosbox -conf ~/.dosbox/pirates.conf",
+    "Shadow of the Comet": "dosbox -conf ~/.dosbox/shadow.conf",
     "Quake": "dosbox -conf ~/.dosbox/quake.conf",
     "Veil of Darkness": "dosbox -conf ~/.dosbox/veil.conf",
     "Daggerfall": "dosbox -conf ~/.dosbox/fall.conf",
     "Daggerfall": "dosbox -conf ~/.dosbox/fall.conf",
-    # wine
+
+    # games that run through wine
+    "Alien Crossfire": "cd ~/Spiele/wine/smacx/ && wine terranx.exe",
     "Arcanum": "cd ~/Spiele/wine/Arcanum/ && wine Arcanum.exe",
+    "Black & White": "cd ~/Spiele/wine/blackwhite/ && wine white.exe",
     "Emperor": "cd ~/Spiele/wine/emperor/ && wine Emperor.exe",
     "Diablo II": "cd ~/Spiele/wine/diablo2/ && wine Game.exe",
     "Fallout": "cd ~/Spiele/wine/fallout/ && wine FALLOUTW.exe",
@@ -128,10 +132,11 @@ game_commands = {
     "War Wind": "cd ~/Spiele/wine/warwind/ && wine WW.exe",
     "Weltwunder": "cd ~/Spiele/wine/c4/ && wine Game.exe",
     "Zeus": "cd ~/Spiele/wine/zeus/ && wine Zeus.exe",
-    # Native
+
+    # games that run natively on linux
     "Daggerfall Unity": "~/Spiele/dfu/DaggerfallUnity.x86_64",
     "Don't Starve": "~/Spiele/dontstarve/start.sh",
-    "Exult": "exult",
+    "Ultima 7 - Exult": "exult",
     "Factorio": "~/Spiele/factorio/bin/x64/factorio",
     "Return to the Roots": "sh ~/Spiele/native/rttr/bin/rttr.sh",
     "Starbound": "~/Spiele/starbound/start.sh",
@@ -140,17 +145,24 @@ game_commands = {
     "Widelands": "widelands",
     "The Ur-Quan Masters": "uqm",
     "Valhalla": "~/Spiele/valhalla/start.sh",
+
     # Emulators
     "RetroArch": "retroarch",
     "ScummVM": "scummvm",
     "Dosbox": "dosbox",
     "Steam": "steam",
-    # Steam
+    
+    # games that run through steam
+    "Amnesia - The Dark Descent": "steam steam://rungameid/57300",
+    "Amnesia - A Machine for Pigs": "steam steam://rungameid/239200",
     "Stellaris": "steam steam://rungameid/281990",
     "Civilization V": "steam steam://rungameid/8930",
     "Civilization VI": "steam steam://rungameid/289070",
+    "Dawn of War": "steam steam://rungameid/9450",
+    "Earth 2160": "steam steam://rungameid/1900",
     "Lost Ruins": "steam steam://rungameid/1306630",
     "Apotheon": "steam steam://rungameid/208750",
+    "Gravity Circuit": "steam steam://rungameid/858710",
     "Kerbal Space Program": "steam steam://rungameid/281990",
     "X3 - Terran Conflict": "steam steam://rungameid/2820",
     "Dawn of War": "steam steam://rungameid/9450",
