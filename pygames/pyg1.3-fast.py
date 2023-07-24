@@ -1,3 +1,4 @@
+# Game wizard, fast edition, for when things have to go a bit faster, without beeping
 
 import os
 import json
@@ -47,9 +48,6 @@ def print_with_delay(text):
     for char in text:
         print(char, end='', flush=True)
         time.sleep(0.01)
-
-def play_sound(file_name):
-    subprocess.run(['play', '-q', file_name])
 
 def print_with_delay_header(text):
     for char in text:
@@ -105,14 +103,8 @@ def clear_screen():
 def display_categories():
     # Function to display available game categories
     clear_screen()
-    play_sound('ui_hacking_charscroll.wav')
-    print_centered(TEXT_COLOR_MAGENTA + TEXT_BOLD + "Initializing Game Wizard\n")
-    print_centered("." * 50 + TEXT_RESET)
-    play_sound('ui_hacking_passgood.wav')
-    clear_screen()
     print_header()
-    play_sound('ui_hacking_charscroll.wav')
-    print_with_delay(TEXT_COLOR_MAGENTA + TEXT_BOLD + "Master, I found the following Categories:\n\n" + TEXT_COLOR_RESET)
+    print(TEXT_COLOR_MAGENTA + TEXT_BOLD + "Master, I found the following Categories:\n" + TEXT_COLOR_RESET)
     index = 1
     for category in sorted(game_categories.keys()):
         print(TEXT_BOLD + TEXT_COLOR_GREEN + "{}. {}".format(index, category)+ TEXT_RESET)
@@ -122,15 +114,8 @@ def display_categories():
 def display_games(category):
     # Function to display games in a specific category
     clear_screen()
-    play_sound('ui_hacking_charscroll.wav')
-    print_centered("Looking up Games in the '{}' Category...\n".format(category))
-    print_centered("." * 50)
-    play_sound('ui_hacking_passgood.wav')
-    clear_screen()
-    play_sound('ui_hacking_charscroll.wav')
     print_header()
-    play_sound('ui_hacking_charscroll.wav')
-    print_with_delay(TEXT_BOLD + TEXT_COLOR_MAGENTA + "Master, these Games are in the '{}' Category:\n\n".format(category) + TEXT_RESET)
+    print(TEXT_BOLD + TEXT_COLOR_MAGENTA + "Master, these Games are in the '{}' Category:\n".format(category) + TEXT_RESET)
     games = sorted(game_categories[category])
     index = 1
     for game in games:
@@ -141,7 +126,6 @@ def display_games(category):
 def launch_game(game):
     # Function to launch a selected game
     clear_screen()
-    play_sound('ui_hacking_charscroll.wav')
     print_header()
     print_with_delay(TEXT_BOLD + TEXT_COLOR_MAGENTA + "=" * 50 + "\n\n"+ TEXT_RESET)
     print_with_delay(TEXT_BOLD + TEXT_COLOR_MAGENTA + " -> Launching {}...\n\n".format(game) + TEXT_RESET)
@@ -152,12 +136,10 @@ def launch_game(game):
         os.system(command)
         clear_screen()
         print_header()
-        play_sound('ui_hacking_charscroll.wav')
         print_with_delay(TEXT_BOLD + TEXT_COLOR_YELLOW +"I hope you had fun playing {}!\n".format(game) + TEXT_RESET)
     else:
         clear_screen()
         print_header()
-        play_sound('ui_hacking_charscroll.wav')
         print_with_delay(TEXT_COLOR_RED + TEXT_BOLD + "The Wizard says: Thou art a Fool! There is no command to launch {}!\n".format(game) + TEXT_RESET)
     input("\nPress Enter to continue...")
     display_categories()
@@ -192,10 +174,8 @@ while True:
     display_categories()
     category_choice = input(TEXT_COLOR_MAGENTA + TEXT_BOLD + "Choose Thy Categorie [1-9] (or 'q' to exit): ")
     if category_choice == "q":
-        play_sound('ui_hacking_charenter_01.wav')
         break
     elif category_choice.isdigit():
-        play_sound('ui_hacking_charenter_01.wav')
         category_choice = int(category_choice)
         if 1 <= category_choice <= len(game_categories):
             categories = sorted(game_categories.keys())
@@ -203,27 +183,21 @@ while True:
             display_games(selected_category)
             game_choice = input(TEXT_BOLD + TEXT_COLOR_MAGENTA + "Choose Thy Game number (or go 'b'ack or 'q'uit): " + TEXT_RESET)
             if game_choice == "b":
-                play_sound('ui_hacking_charenter_01.wav')
                 continue
             elif game_choice == "q":
-                play_sound('ui_hacking_charenter_01.wav')
                 break
             elif game_choice.isdigit(): 
-                play_sound('ui_hacking_charenter_01.wav')
                 game_choice = int(game_choice)
                 games = sorted(game_categories[selected_category])
                 if 1 <= game_choice <= len(games):
                     selected_game = games[game_choice - 1]
                     launch_game(selected_game)
                 else:
-                    play_sound('ui_hacking_passbad.wav')
                     print("Invalid game selection!")
                     input("Press Enter to continue...")
             else:
-                play_sound('ui_hacking_passbad.wav')
                 print("Invalid input!")
                 input("Press Enter to continue...")
         else:
-            play_sound('ui_hacking_passbad.wav')
             print("Invalid category selection!")
             input("Press Enter to continue...")
