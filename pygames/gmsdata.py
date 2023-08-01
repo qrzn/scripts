@@ -85,6 +85,8 @@ game_categories = {
         "Duke Nukem 3D",
         "Half-Life",
         "Pirates!",
+        "Terraria",
+        "Starbound",
         "Quake",
         ],
     "Adventure": [
@@ -108,6 +110,7 @@ game_categories = {
         "Master of Orion II - Battle at Antares",
         ],
    "Indie": [
+        "Apotheon",
         "Don't Starve",
         "Gravity Circuit",
         "Factorio",
@@ -135,6 +138,7 @@ game_commands = {
     "Dune": "dosbox -conf ~/.dosbox/dune.conf",
     "Dune 2": "dosbox -conf ~/.dosbox/dune2.conf",
     "Darklands": "dosbox -conf ~/.dosbox/darklands.conf",
+    "Gods": "dosbox -conf ~/.dosbox/gods.conf",
     "Dune 2": "dosbox -conf ~/.dosbox/dune2.conf",
     "Lands of Lore": "dosbox -conf ~/.dosbox/lol.conf",
     "Siedler 2": "dosbox -conf ~/.dosbox/siedler2.conf",
@@ -152,7 +156,7 @@ game_commands = {
 
     # games that run through wine
     "Alien Crossfire": "cd ~/Spiele/wine/smacx/ && wine terranx.exe",
-    "Arcanum": "cd ~/Spiele/wine/Arcanum/ && wine Arcanum.exe",
+    "Arcanum": "cd ~/Spiele/wine/arcanum/ && wine Arcanum.exe",
     "Black & White": "cd ~/Spiele/wine/blackwhite/ && wine white.exe",
     "Emperor": "cd ~/Spiele/wine/emperor/ && wine Emperor.exe",
     "Diablo II": "cd ~/Spiele/wine/diablo2/ && wine Game.exe",
@@ -170,7 +174,7 @@ game_commands = {
     "Zeus": "cd ~/Spiele/wine/zeus/ && wine Zeus.exe",
 
     # games that run natively on linux
-    "Daggerfall Unity": "~/Spiele/dfu/DaggerfallUnity.x86_64",
+    "Daggerfall Unity": "~/Spiele/native/dfu/DaggerfallUnity.x86_64",
     "Don't Starve": "~/Spiele/dontstarve/start.sh",
     "Ultima 7 - Exult": "exult",
     "Factorio": "~/Spiele/factorio/bin/x64/factorio",
