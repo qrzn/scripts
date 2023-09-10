@@ -8,6 +8,15 @@ def print_with_delay(text):
 
 # Dictionary to hold game categories and their associated games
 game_categories = {
+    "FAVS": [
+        "Daggerfall",
+        "Master of Magic",
+        "Master of Orion",
+        "OpenXcom",
+        "Pirates!",
+        "Siedler 2",
+        "Starbound",
+        ],
     "RPG": [
         "Albion",
         "Arena",
@@ -33,6 +42,9 @@ game_categories = {
         "Legend of Grimrock",
         ],
     "Strategy": [
+        "Anno 1404",
+        "Anno 1503",
+        "Anno 1701",
         "Centurion",
         "Dawn of War",
         "Dungeon Keeper II",
@@ -45,6 +57,8 @@ game_categories = {
         "Stronghold",
         "Stronghold Crusader",
         "Stronghold Crusader Extreme",
+        "Tropico",
+        "OpenXcom",
         "Pharaoh",
         "War Wind",
         "Weltwunder",
@@ -75,7 +89,7 @@ game_categories = {
         "Pirates!",
         "Siedler 2",
         ],
-    "Action": [
+    "Metroidvania": [
         "Apotheon",
         "CrossCode",
         "Commander Keen",
@@ -96,6 +110,16 @@ game_categories = {
         "Broken Sword",
         "Broken Sword II",
         "ScummVM",
+        ],
+    "GAMEPAD": [
+        "Apotheon",
+        "CrossCode",
+        "Commander Keen",
+        "Gravity Circuit",
+        "Lost Ruins",
+        "RetroArch", 
+        "Starbound",
+        "Stardew Valley",
         ],
      "4X": [
         "Alien Crossfire",
@@ -147,7 +171,6 @@ game_commands = {
     "Master of Magic": "dosbox -conf ~/.dosbox/mom.conf",
     "Ultima 4-6": "dosbox -conf ~/.dosbox/ultima.conf",
     "Ultima Underworld": "dosbox -conf ~/.dosbox/uuw.conf",
-    "Pirates!": "dosbox -conf ~/.dosbox/pirates.conf",
     "Shadow of the Comet": "dosbox -conf ~/.dosbox/shadow.conf",
     "Quake": "dosbox -conf ~/.dosbox/quake.conf",
     "Veil of Darkness": "dosbox -conf ~/.dosbox/veil.conf",
@@ -156,6 +179,9 @@ game_commands = {
 
     # games that run through wine
     "Alien Crossfire": "cd ~/Spiele/wine/smacx/ && wine terranx.exe",
+    "Anno 1404": "cd ~/Spiele/wine/anno1404/ && wine Addon.exe",
+    "Anno 1503": "cd ~/Spiele/wine/anno1503/ && wine 1503Startup.exe",
+    "Anno 1701": "cd ~/Spiele/wine/anno1701/ && wine Anno1701AddOn.exe",
     "Arcanum": "cd ~/Spiele/wine/arcanum/ && wine Arcanum.exe",
     "Black & White": "cd ~/Spiele/wine/blackwhite/ && wine white.exe",
     "Emperor": "cd ~/Spiele/wine/emperor/ && wine Emperor.exe",
@@ -168,7 +194,9 @@ game_commands = {
     "Stronghold": "cd ~/Spiele/wine/stronghold/ && wine Stronghold.exe",
     "Stronghold Crusader": "cd ~/Spiele/wine/strongholdchd/ && wine shc.exe",
     "Stronghold Crusader Extreme": "cd ~/Spiele/wine/strongholdchd/ && wine shc.exe",
+    "Tropico": "cd ~/Spiele/wine/tropico/ && wine Tropico.exe",
     "Pharaoh": "cd ~/Spiele/wine/pharaoh/ && wine Pharaoh.exe",
+    "Pirates!": "cd ~/Spiele/wine/smpirates/ && wine Pirates!.exe",
     "War Wind": "cd ~/Spiele/wine/warwind/ && wine WW.exe",
     "Weltwunder": "cd ~/Spiele/wine/c4/ && wine Game.exe",
     "Zeus": "cd ~/Spiele/wine/zeus/ && wine Zeus.exe",
@@ -179,10 +207,11 @@ game_commands = {
     "Ultima 7 - Exult": "exult",
     "Factorio": "~/Spiele/factorio/bin/x64/factorio",
     "Return to the Roots": "sh ~/Spiele/native/rttr/bin/rttr.sh",
-    "Starbound": "~/Spiele/starbound/start.sh",
-    "Stardew Valley": "~/Spiele/stardew/start.sh",
+    "Starbound": "~/Spiele/native/starbound/start.sh",
+    "Stardew Valley": "~/Spiele/native/stardew/start.sh",
     "OpenMW": "openmw-launcher",
     "Widelands": "widelands",
+    "OpenXcom": "openxcom",
     "The Ur-Quan Masters": "uqm",
     "Valhalla": "~/Spiele/valhalla/start.sh",
 
