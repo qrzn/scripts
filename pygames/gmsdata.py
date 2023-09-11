@@ -1,5 +1,9 @@
 import json
+import os
 import time
+
+def clear_screen():
+    os.system('cls' if os.name == 'nt' else 'clear')
 
 def print_with_delay(text):
     for char in text:
@@ -9,11 +13,14 @@ def print_with_delay(text):
 # Dictionary to hold game categories and their associated games
 game_categories = {
     "FAVS": [
-        "Daggerfall",
+        "Emperor",
+        "Zeus",
+        "Pharaoh",
+        "Egypt - Old Kingdom",
+        "Daggerfall Unity",
         "Master of Magic",
         "Master of Orion",
         "OpenXcom",
-        "Pirates!",
         "Siedler 2",
         "Starbound",
         ],
@@ -37,21 +44,17 @@ game_categories = {
         "Ultima Underworld",
         "Ultima Underworld 2",
         "Veil of Darkness",
-        "Sakura Dungeon",
         "ScummVM",
-        "Legend of Grimrock",
         ],
     "Strategy": [
         "Anno 1404",
         "Anno 1503",
         "Anno 1701",
         "Centurion",
-        "Dawn of War",
         "Dungeon Keeper II",
         "Factorio",
         "Dune 2",
         "Emperor",
-        "Earth 2160",
         "Return to the Roots",
         "Siedler 2",
         "Stronghold",
@@ -62,14 +65,12 @@ game_categories = {
         "Pharaoh",
         "War Wind",
         "Weltwunder",
-        "XCOM 2",
         "Zeus",
         ],
     "DOS": [
         "Ascendancy",
         "Albion",
         "Arena",
-        "Dosbox",
         "Dune",
         "Dune 2",
         "Lands of Lore",
@@ -81,7 +82,6 @@ game_categories = {
         "Gods",
         "Master of Magic",
         "Master of Orion",
-        "Caster of Magic",
         "Master of Orion II - Battle at Antares",
         "Centurion",
         "Darklands",
@@ -89,44 +89,19 @@ game_categories = {
         "Pirates!",
         "Siedler 2",
         ],
-    "Metroidvania": [
-        "Apotheon",
-        "CrossCode",
-        "Commander Keen",
-        "Gravity Circuit",
-        "Lost Ruins",
-        "Gods",
-        "Duke Nukem 3D",
-        "Half-Life",
-        "Pirates!",
-        "Terraria",
-        "Starbound",
-        "Quake",
-        ],
     "Adventure": [
-        "Amnesia - The Dark Descent",
-        "Amnesia - A Machine for Pigs",
         "Shadow of the Comet",
         "Broken Sword",
         "Broken Sword II",
         "ScummVM",
         ],
     "GAMEPAD": [
-        "Apotheon",
-        "CrossCode",
         "Commander Keen",
-        "Gravity Circuit",
-        "Lost Ruins",
         "RetroArch", 
-        "Starbound",
         "Stardew Valley",
         ],
      "4X": [
         "Alien Crossfire",
-        "Civilization",
-        "Civilization V",
-        "Civilization VI",
-        "Stellaris",
         "Ascendancy",
         "Master of Magic",
         "Master of Orion",
@@ -134,20 +109,10 @@ game_categories = {
         "Master of Orion II - Battle at Antares",
         ],
    "Indie": [
-        "Apotheon",
         "Don't Starve",
-        "Gravity Circuit",
         "Factorio",
         "Starbound",
         "Stardew Valley",
-        "Kerbal Space Program",
-        "Terraria",
-        ],
-    "Emulators": [
-        "RetroArch", 
-        "ScummVM",
-        "Dosbox",
-        "Steam"
         ],
 }
 
@@ -169,6 +134,7 @@ game_commands = {
     "Master of Orion": "dosbox -conf ~/.dosbox/moo.conf",
     "Master of Orion II - Battle at Antares": "dosbox -conf ~/.dosbox/moo2.conf",
     "Master of Magic": "dosbox -conf ~/.dosbox/mom.conf",
+    "Pirates!": "dosbox -conf ~/.dosbox/pirates.conf",
     "Ultima 4-6": "dosbox -conf ~/.dosbox/ultima.conf",
     "Ultima Underworld": "dosbox -conf ~/.dosbox/uuw.conf",
     "Shadow of the Comet": "dosbox -conf ~/.dosbox/shadow.conf",
@@ -196,7 +162,7 @@ game_commands = {
     "Stronghold Crusader Extreme": "cd ~/Spiele/wine/strongholdchd/ && wine shc.exe",
     "Tropico": "cd ~/Spiele/wine/tropico/ && wine Tropico.exe",
     "Pharaoh": "cd ~/Spiele/wine/pharaoh/ && wine Pharaoh.exe",
-    "Pirates!": "cd ~/Spiele/wine/smpirates/ && wine Pirates!.exe",
+    "Sid Meier's Pirates!": "cd ~/Spiele/wine/smpirates/ && wine Pirates!.exe",
     "War Wind": "cd ~/Spiele/wine/warwind/ && wine WW.exe",
     "Weltwunder": "cd ~/Spiele/wine/c4/ && wine Game.exe",
     "Zeus": "cd ~/Spiele/wine/zeus/ && wine Zeus.exe",
@@ -204,6 +170,7 @@ game_commands = {
     # games that run natively on linux
     "Daggerfall Unity": "~/Spiele/native/dfu/DaggerfallUnity.x86_64",
     "Don't Starve": "~/Spiele/dontstarve/start.sh",
+    "Egypt - Old Kingdom": "~/Spiele/native/egypt/start.sh",
     "Ultima 7 - Exult": "exult",
     "Factorio": "~/Spiele/factorio/bin/x64/factorio",
     "Return to the Roots": "sh ~/Spiele/native/rttr/bin/rttr.sh",
@@ -251,5 +218,6 @@ data = {
 # Writing the dictionary to a JSON file
 with open("game_data.json", "w") as file:
     json.dump(data, file)
-
+clear_screen()
+print("gmsdata.py - game data tool for pygames")
 print_with_delay("Game Data JSON file generated successfully.")

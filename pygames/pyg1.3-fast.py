@@ -103,7 +103,7 @@ def print_header():
     with open("header2.txt", 'r') as file:
         for line in file:
             line = line.rstrip('\n') # remove unneccessary crud
-            print(BACKGROUND_COLOR_CYAN + TEXT_COLOR_MAGENTA + f"{line.center(columns)}" + TEXT_COLOR_RESET)
+            print(TEXT_COLOR_MAGENTA + f"{line.center(columns)}" + TEXT_COLOR_RESET)
     
 
 def clear_screen():
@@ -150,7 +150,7 @@ def launch_game(game):
         os.system(command)
         clear_screen()
         print_header()
-        print_with_delay(TEXT_BOLD + TEXT_COLOR_YELLOW +"I hope you had fun wasting your time playing {}!\n".format(game) + TEXT_RESET)
+        print_with_delay(TEXT_BOLD + TEXT_COLOR_YELLOW +"\n I hope you had fun wasting your time playing {}!\n".format(game) + TEXT_RESET)
     else:
         clear_screen()
         print_header()
