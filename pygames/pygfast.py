@@ -103,7 +103,6 @@ def clear_screen():
 def display_categories():
     # Function to display available game categories
     clear_screen()
-    print_header()
     print(TEXT_COLOR_MAGENTA + TEXT_BOLD + "Categories:\n" + TEXT_COLOR_RESET)
     index = 1
     for category in sorted(game_categories.keys()):
@@ -115,7 +114,6 @@ def display_categories():
 def display_games(category):
     # Function to display games in a specific category
     clear_screen()
-    print_header()
     print(TEXT_BOLD + TEXT_COLOR_MAGENTA + "Master, these Games are in the '{}' Category:\n".format(category) + TEXT_RESET)
     games = sorted(game_categories[category])
     index = 1
@@ -128,7 +126,6 @@ def display_games(category):
 def launch_game(game):
     # Function to launch a selected game
     clear_screen()
-    print_header()
     print(TEXT_BOLD + TEXT_COLOR_MAGENTA + "=" * 50 + "\n\n"+ TEXT_RESET)
     print(TEXT_BOLD + TEXT_COLOR_MAGENTA + " -> doing weird coding magickx {}...\n\n".format(game) + TEXT_RESET)
     print(TEXT_BOLD + TEXT_COLOR_MAGENTA + " -> It worked! :-)\n\n".format(game) + TEXT_RESET)

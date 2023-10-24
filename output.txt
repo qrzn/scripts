@@ -1,0 +1,1860 @@
+[] [] [] [] [] [] [] [] []
+
+Menu
+
+[Agora Road's Macintosh Cafe]
+
+-   Home
+
+-   What's new
+    Latest activity New posts New media New media comments
+
+-   Forums
+    Search forums
+
+-   Media
+    Search media
+
+-   Awards
+
+-   Agora Gangtags
+
+-   Games
+    Oregon Trail Pepsiman After Burner 1987 Orb Farm
+
+-   Webring
+
+Everywhere Threads This forum This thread
+
+Search titles only
+
+By:
+
+Filters
+
+Search
+
+Log in Register
+
+What's new
+
+Search
+
+Everywhere Threads This forum This thread
+
+Search titles only
+
+By:
+
+Search
+
+Advanced search…
+
+-   Search forums
+
+[] [Agora Road's Macintosh Cafe] Agora Road's Macintosh Cafe Enjoy the
+Best Kept Secret of the Internet!
+
+-   []
+
+    Donate and support Agora Road's Macintosh Cafe to keep the forum
+    alive and make any necessary upgrades to have a more pleasant
+    experience! In addition, you will be able to have "moods" enabled on
+    your profile and have donation only awards! Update: I configured the
+    site with Brave Browser, so you can send tips to the site with BAT.
+
+    You can now donate directly to the forum without signing up for
+    patreon. You will still have all of the same perks in patreon but
+    its now one less sign up method. It will be under Account Upgrades
+
+-   Home
+-   Forums
+-   General Discussion
+-   Hidden Internet
+
+-   Youtube
+
+JavaScript is disabled. For a better experience, please enable
+JavaScript in your browser before proceeding.
+
+You are using an out of date browser. It may not display this or other
+websites correctly.
+You should upgrade or use an alternative browser.
+
+AI Tags In, Humans Tap Out
+
+-    Thread starter passerby
+
+-    Start date Wednesday at 10:08 AM
+
+-   
+
+     Tags
+         agi artificial intelligence bard big tech chatgpt dystopia
+        essay futurist google gpt openai tech technocracy technology
+
+-   Wednesday at 10:08 AM
+-   Replies: 15
+
+-   
+
+[I paid $5 to feed 20 photos of myself to an AI avatar generator. The
+results are a mix of flattering and absurd, but none look quite like
+me.]
+
+CAPTION: I paid $5 to feed 20 photos of myself to an AI avatar
+generator. The results are a mix of flattering and absurd, but none look
+quite like me.​
+
+Fellow Travelers, we're living in a strange limbo as AI exits geek
+circles to sweep the public consciousness and private marketplace of
+everyday normies. Do these things have staying power? (This essay
+originally appeared on my Substack and Medium.)
+Humans love imagining a future landscape—or hellscape, depending on
+one's view—of robots taking over the world à la Terminator. Even so,
+we've already delegated many critical tasks to artificial intelligence,
+from regulatory paperwork to farm equipment to military combat. More
+nuanced applications, like simulating human connection, have proven
+challenging to meaningfully transform with AI.
+But this status quo has a new challenger: ChatGPT, among the first
+entrants in a frenzy of chatbots capturing global users in the millions.
+Named after the "Generative Pre-trained Transformer" language model of
+its creator, Silicon Valley-based OpenAI, ChatGPT writes and retrieves
+information in response to text inputs. With conversational features,
+it's more realistic than analogous technologies, and it beats
+intelligent assistants (like Apple's Siri and Amazon's Alexa) in the
+range of tasks it supports.
+Setting aside the merits of the technology itself, our newfound
+society-wide obsession with its "nightmarish" implications is arguably
+the more compelling story. Consumer-facing ChatGPT and its ilk (Google's
+Bard, Microsoft's Bing AI, and other chatbots) seem silly in scale to
+the OG robots effectively running our world—digital incumbents busy in
+the background at any given time. It's in the predictive algorithms
+across our financial system. It's automating our food production and
+overseeing critical energy infrastructure. It's the biometrics and
+cameras tracking much of China right now, while another model across the
+globe is likely simulating a cost-benefit analysis of implementing such
+surveillance interventions domestically. And it's in our brains as we
+make sense of our highly tailored news feeds, governed by personalized
+algorithms.
+In a new but predictable move, AI's tendrils have reached culture.
+AI-generated music and art offer a similar productive utility but with
+greater social implications, leading us to rethink longstanding
+copyright protections.
+We arrive at the uncanny limbo where approximations of human-made
+material are becoming harder to distinguish. Chatbots are ultimately an
+innocent player in this dynamic, trumped by more sensational media, such
+as "deep fakes" realistically depicting public figures. At what point
+does the limbo graduate past absurdity, possibly entering the physical
+realm? And how will we respond? Will AI conform to our norms, constantly
+in a state of flux as humans advance? Does it have staying power?
+That depends on what happens with us, the end-consumers. Leaving out the
+proverbial 1% of developers, investors, and regulators who actually
+oversee AI advancement, the future hinges on whether we, as consumers,
+tune in or drop out. The forecasted outcome is clouded by today's
+competing socioeconomic pressures—all perfectly timed to disincentivize
+and distract from any real dissent and/or counter-innovation from the
+broader populace. More pressing matters demand attention here on the
+ground, with suicide rates reaching an all-time high, the quality of
+education plummeting, the lessons of the pandemic fading, global
+instability rising, and social division becoming entrenched. It's an
+opportune moment for human displacement to speed up from an incremental
+transition to the new standard.
+We've been teetering on a recession for over a year, and the
+long-awaited layoffs are finally materializing. The tech sector alone
+shed over 170,000 employees so far in 2023. Now's the perfect time to
+exit employment, don our headsets and digital siloes, and interact with
+the same tools disrupting our work and personal lives as we doom-scroll
+to death.
+
+ChatGPT Brought AI Fear & Optimism to the Masses​
+
+The most successful consumer-facing chatbot landed with much
+fear-mongering and fanfare over the holidays in late-2022. This
+pioneering yet still-imperfect language model surprised everyone by
+seizing the public discourse longer than the typical attention-draining
+news cycle. ChatGPT ignited sensational headlines, Congressional
+hearings, family dinner conversations, workforce training sessions, and
+other forms of discourse on and offline. With 100 million monthly active
+users by January, ChatGPT represented the fastest-growing consumer
+application in history. And by March, a Pew Research Center survey
+reported that 58% of Americans had heard of it.
+Even though it still has notable limitations—often churning out
+incorrect, improvised, or useless responses—ChatGPT is already
+displacing time-consuming manual labor across society, whether it's
+grading papers and planning lessons for teachers, writing social media
+posts and emails for marketers, or taking on burdensome paperwork for
+healthcare professionals. Some of the more off-label uses include
+creating text adventure games, messaging matches on dating apps, and
+even preaching sermons at church. On release, the app garnered more
+nefarious user testing, from cheating in school (reported by one in four
+K-12 teachers) to spreading malware. But OpenAI started limiting many of
+those abilities this year.
+The concern of "giving it too much power" isn't unfounded. One initial
+safeguard built into ChatGPT was that it couldn't access the internet
+beyond September 2021, setting a limit on its knowledge of current
+events and (potential) manipulation of real-time information. OpenAI has
+since given ChatGPT access to the internet: The company rolled out this
+feature in September 2023, providing users "with current and
+authoritative information, complete with direct links to sources."
+Meanwhile, the job-killing concerns have already reached the surface,
+with 48% of companies that use ChatGPT reporting it has replaced
+workers. Writers are protesting layoffs as AI-generated articles become
+more cost-effective across media and entertainment. Goldman Sachs
+estimates generative AI systems like ChatGPT could expose 300 million
+full-time jobs to automation globally.
+
+[Generative AI algorithms already surpass human benchmarks for image
+classification and reading comprehension. ]
+Generative AI algorithms already surpass human benchmarks for image
+classification and reading comprehension. Chart: Goldman Sachs​
+
+Because of its heavily publicized and far-reaching rollout, ChatGPT
+thrust the theoretical implications of AI into the mainstream, now a
+popular subject across generations and cultures. But Americans are
+skeptical about AI, with more than two-thirds concerned about its
+consequences and 61% seeing it as a threat to humanity, per
+Reuters/Ipsos. In many ways, ChatGPT isn't revolutionary; it simply
+confirms what we knew AI could do, this time conversing in our style.
+Perhaps ChatGPT was primed to go viral after OpenAI released DALL-E in
+2021, a similarly attention-magnetic app that recreates images from
+descriptions via the GPT language model. It was also perfectly timed to
+awaken the mid-stage-development projects lagging far behind ChatGPT.
+Viewing ChatGPT as a competitor to Google Search, Google executives
+called emergency meetings and reassigned developers to lead its AI
+expansion. Microsoft upped its previous stake in OpenAI with a $10
+billion investment, accelerating a broader AI push. The company then
+rushed to integrate an unreleased version of GPT-4 on its own Bing
+search engine, despite OpenAI warning it needed more training for
+accuracy. Predictably, Bing AI's demo launched with false, nonsensical,
+and sometimes deranged responses.
+Enter the Big Tech-fueled "AI Wars:" a user-adoption-hungry matrix
+aiming to capture a populace already asleep at the proverbial wheel,
+drawing dopamine hits from social media and over-scrolling until our
+eyes are strained. Even with our short attention spans, the new AI race
+has dominated the news cycle for six months. This iteration of the AI
+zeitgeist has more staying power than those quick-hit stories of major
+AI breakthroughs over the years. That was yesterday's niche news, as the
+wider populace becomes desensitized by a constant stream of mind-blowing
+tech, ever increasing in scope and implications. (In one recent example,
+scientists developed a "brain-decoder" that can accurately read a
+person's unspoken thoughts by analyzing the language in their brain.)
+Meanwhile, as we incrementally relinquish small bits of our daily lives
+to AI, we lose an opportunity to solve problems and reflect on our
+experience, aiming for long-term self-improvement. And when our creative
+output is inspired by vicarious experiences, not our own, a culture
+previously never short on ideas becomes stagnant—just as soulless and
+sterile as the technologies that distract us from any meaningful change.
+
+Are We Regressing?​
+
+AI and humans are evolving simultaneously, one faster than the other.
+Since AI is just an extension of ourselves, consider human advancement
+over time. We have a knack for pattern recognition; it's arguably what
+hastened our evolution from natural selection to an enterprising,
+industrial species. It spreads to our inclination to leave an imprint in
+some material form, whether it's carving symbols in caves, drilling for
+oil, branding our livestock and, now, branding our identities online. As
+the cliché goes, one cannot move forward without leaving a footprint.
+In this way, it's daunting moving into an era where humans are willingly
+losing touch with physical life, leaving behind a void where tasks are
+delegated, and creativity is outsourced. What starts as a tool becomes a
+crutch. Muscle memory fades with limited mobility as even the most
+mundane tasks—such as trekking the painful distance from the couch to
+the thermostat—are assigned to software. Our stamina is outperformed by
+"intelligent" everything: Smart homes, smart aging, smart sex.
+Still, these tools carry utility, and many find them valuable in
+everyday life. But the tangible benefits become blurred in efforts to
+infuse ethics into AI. Emotion and a sense of right vs. wrong
+distinguish humans from other life on Earth, and the same will continue
+until we're displaced or die out. Despite the intuitive value of
+ensuring our AI follows this social code, maybe it's foolish to
+prescribe an emotion-driven model to an accessory.
+The stakes are magnified as an untapped resource of "superintelligence"
+could surpass human skills in most domains over the next 10 years, per
+OpenAI's own estimation.
+
+[Comics from a paper in the Journal of Artificial Intelligence Research
+]
+
+Pertinent figures from a paper in the Journal of Artificial Intelligence
+Research (via SemanticScholar.com)​
+
+With artificial general intelligence (AGI) achieving breakthroughs and
+likely to breach human capabilities in the coming years, the AI
+alignment problem is one of the biggest research challenges of our time.
+Computer scientists, including ChatGPT's own, are rushing to develop
+strategies keeping AGI "aligned," acting in the interest of humans'
+goals and ethical principles.
+But misalignment is to be expected if AGI is informed by today's most
+advanced deep learning models. A recent paper co-authored by OpenAI
+governance researcher Richard Ngo outlines three potential scenarios
+arising when AGIs are pre-trained using self-supervised learning and
+fine-tuned via reinforcement learning from human feedback:
+
+  "They could learn to act deceptively to receive higher reward, learn
+  internally-represented goals which generalize beyond their training
+  distributions, and pursue those goals using power-seeking strategies."
+
+  Click to expand...
+
+[AGI misalignment w: color.png]
+
+Three properties (highlights added by me) are shown with contributing
+factors. (Source)​
+
+But never mind this prognosis. The experts are looking into it. Congress
+is considering regulating it. AI executives are calling on both to
+manage the risks of their creations. It's a childish dance, as
+stakeholders toss the burden of responsibility back and forth like hot
+potatoes.
+As always, just follow the money. The free market monetized human
+instinct, selling projections of ourselves back to us. From that
+perspective, reasons to be either bullish or bearish on chatbots abound.
+They've found a proven market as customer support/engagement
+applications, now widespread across banking, ecommerce, and retail. But
+the prospect of capturing the general public is a business opportunity
+too tempting to pass up. After all, the market is HOT and ripe for
+mergers and acquisitions; ignore the rushed rollouts, the limitations in
+the business models, or the sky-high operating costs leaving pre-revenue
+startups starved for capital.
+Consumer-facing chatbots lack the ability to provide users with
+innovative answers, still relying on supervision and interference with a
+trained support team. This hand-holding will likely continue until they
+can reliably respond to the many unpredictable nuances of human
+behavior. Beyond chatbots, these and similar flaws have long limited
+AI's effectiveness. As programmers work out the kinks and researchers
+test long-term solutions, the technology faces growing skepticism from
+investors, ethicists, and early internet pioneers, who critique its
+societal risks, ethical gaps, and profit limitations.
+Notably: Through the Future of Life Institute, Elon Musk (formerly an
+OpenAI board member), Steve Wozniak, and other tech leaders signed an
+open letter urging a six-month pause on training AI systems more
+powerful than GPT-4 (the latest version of ChatGPT, enabling more
+advanced knowledge retention, reasoning, and coding).
+
+[GPT-4 beats GPT-3.5 in academic and professional exams. Source: OpenAI
+technical report (2023)]
+
+GPT-4 beats GPT-3.5 in academic and professional exams. Source: OpenAI
+technical report (2023)​
+
+However, abandoning current AI progress seems wasteful and naive.
+Leaving it in an unfinished state isn't reasonable either.
+
+What's Next?​
+
+Ultimately, I don't think AI will save or end humanity. There are plenty
+of compelling cases of it offering more benefit than harm in the right
+applications: AI-powered medical treatment/diagnostics helps save lives.
+Unmanned/autonomous research drones gather environmental data at
+altitudes and depths too dangerous or inaccessible to people.
+Humans still have the advantage in complexity and creativity, though
+estimates vary on when we'll lose our edge. Virtually every AI
+innovation brings the expectation of at least matching human
+capabilities. But with AI expansion outpacing our understanding of how
+it works in reality, we aren't equipped to keep up.
+Until recently, human adaptation to technology has largely been
+incremental, which is ultimately healthy and more sustainable long-term.
+"Web 1.0" accelerated the timescale of mainstream tech adoption in the
+1990s and early-2000s, with humans quickly conforming to the internet
+age. We soon lept head first into the social media-fuelled "Web 2.0"
+era, and we're still making sense of the psychological consequences of
+that expansion. Will today's AI issues be resolved in the same timeline?
+Likely not, as the time-to-market incentives outweigh the buzz-killing
+risk controls.
+Like the average person, I use AI regularly. It's impossible not to, as
+it's embedded in modern society's underlying systems. I'm just an
+observer of (and participant in) the current madness. But I find the
+timing of ChatGPT's release so impeccable that it's almost funny. Here's
+this public-facing AI that can have a half-hearted conversation as you
+delegate everything else to its machine-learning ancestors and siblings,
+all while hoping AI doesn't take your job one day. How convenient.
+We're in an era brimming with possibilities, but there's a slow burn of
+minds willing to sacrifice short-term wins for long-term, healthy tech
+development. As in any parent-child dynamic, a basic principle applies:
+Just because we gave birth to this future doesn't mean it will be kind
+to us.
+-------------
+Fellow Agora Road Travelers: What do you guys think about all of this?
+Any solutions worth exploring?
+
+ 
+
+Attachments
+
+-    [Screenshot 2023-10-04 at 12.37.13 PM.png]
+    Screenshot 2023-10-04 at 12.37.13 PM.png
+    66.1 KB · Views: 78
+-    [Expectations chart w: color.png]
+    Expectations chart w: color.png
+    771.3 KB · Views: 80
+
+Last edited: Yesterday at 6:08 PM
+
+Reply
+
+-   [Coffee (Like)]
+
+Reactions: kona, 4d1, selfKaiHarness and 3 others
+
+Click to expand...
+
+[passerby]
+
+Written by
+
+passerby
+
+passerby
+
+-   
+
+    Messages
+        31
+
+-   
+
+    Reaction score
+        45
+
+[LostintheCycle]
+
+LostintheCycle
+
+Formerly His Holeliness
+
+Gold
+
+[]
+
+[] []
+
+Joined
+    Apr 4, 2022
+
+Messages
+    694
+
+Reaction score
+    2,702
+
+Awards
+    200
+
+-   Thursday at 6:10 AM
+
+-   
+-   #2
+
+  passerby said:
+
+  Fellow Agora Road Travelers: What do you guys think about all of this?
+  Any solutions worth exploring?
+
+  Click to expand...
+
+Personally, my favourite solution involves one American in Silicon
+Valley utilizing their Second Amendment for the greater good.
+
+ 
+
+------------------------------------------------------------------------
+
+[index.php]
+
+[index.php]
+
+Virtual Cafe Awards
+
+-   []
+-   []
+-   []
+-   []
+-   []
+-   []
+-   []
+-   []
+-   []
+-   []
+-   []
+
+Reply
+
+-   [THIS]
+-   [Coffee (Like)]
+-   [Nice]
+
+Reactions: kona, selfKaiHarness, WKYK and 3 others
+
+[imnotdeadyet]
+
+imnotdeadyet
+
+A Bit Closer to Heaven
+
+[]
+
+Joined
+    Jul 22, 2023
+
+Messages
+    133
+
+Reaction score
+    359
+
+Awards
+    50
+
+Website
+    downbytheseasi.de
+
+-   Thursday at 8:57 AM
+
+-   
+-   #3
+
+  passerby said:
+
+  And how will we respond? Will AI conform to our norms, constantly in a
+  state of flux as humans advance? Does it have staying power?
+
+  Click to expand...
+
+If used correctly people are very much okay with AI. As you say in your
+own text the majority of Americans (and arguably much of the world) have
+heard of and used ChatGPT. Not only use but they trust it, students have
+it write essays, lawyers have it research cases for them (and it did it
+poorly i might add), google scholar was at one point overrun with ai
+generated articles. Ai in it's inferior state a few months ago won an
+art contest. People don't care about ethics as long as it doesn't affect
+them. Even the artist outcry isn't really about "the sanctity the
+artistic process" as most of them would say it's about copyright and
+industry jobs, which is more then fair but people love to cloak their
+opinions with a layer of "concern about ethics and culture". Safe to say
+that for most ethics and norms aren't even a question but that AI is
+catching up to a once thought unreachable industry. As for deepfakes,
+scammers are getting use out of them and politicans are fucking around
+with the tech. And again no one cares.
+
+  passerby said:
+
+  Meanwhile, the job-killing concerns have already reached the surface,
+  with 48% of companies that use ChatGPT reporting it has replaced
+  workers. Writers are protesting layoffs as AI-generated articles
+  become more cost-effective across media and entertainment. Goldman
+  Sachs estimates generative AI systems like ChatGPT could expose 300
+  million full-time jobs to automation globally.
+
+  Click to expand...
+
+Now this is my major concern, not Skynet but the economy. It is more
+then capable and will be even more capable to just automate so many
+people out of work. Again most do not care as it hasn't reached them yet
+but they will soon enough. As with everything AI related the world does
+not have safeguards in place for this, no alternative plan. People are
+just expected to take it as they have before and switch jobs, maybe get
+that ever more tantalizing coding gig (or maybe not). No one is really
+thinking about what 300 million people losing their jobs would do and
+i'm afraid that I don't have a solution either. What do they and maybe
+even we do? Do we all grab virtual avatars and become online
+entertainers or maybe they'll make more bullshit jobs for us all to
+accommodate the ever crumbling global economy? I heard prompt
+engineering is the new hot thing.
+
+  passerby said:
+
+  With artificial general intelligence (AGI) achieving breakthroughs and
+  likely to breach human capabilities in the coming years, the AI
+  alignment problem is one of the biggest research challenges of our
+  time. Computer scientists, including ChatGPT's own, are rushing to
+  develop strategies keeping AGI "aligned," acting in the interest of
+  humans' goals and ethical principles.
+
+  Click to expand...
+
+Let's be real, all this alignment or whatever they want to call it is
+just tweaking the ai so it doesn't spit out something that's gonna harm
+the corpo brand or that would get it regulated.
+
+  passerby said:
+
+  Ultimately, I don't think AI will save or end humanity.
+
+  Click to expand...
+
+I agree, AI could never end humanity because a human first would have to
+put it in a position where it can do harm. Like manning armed drones for
+example, or plugging it into nukes. Humans will ultimately be at fault
+for our own downfall if we let an unstable AI control important systems
+and if that happens it's hard to say that it isn't deserved. Play dumb
+games win dumb prizes. And unfortunately we're very happy to play dumb
+games and it's going to harm regular people, for example with predictive
+policing.
+
+  passerby said:
+
+  There are plenty of compelling cases of it offering more benefit than
+  harm in the right applications: AI-powered medical
+  treatment/diagnostics helps save lives.
+
+  Click to expand...
+
+If controlled yes AI can be a force for good. The problem is just how
+wiling and trusting people are of systems that even the researchers that
+built them didn't really understand until lately. And it's worth asking
+if they understand them even now. I'm all for use but as long as it can
+be verified that these things actually put out accurate information.
+Researchers often times aren't sure how machines even reach given
+results. For example there could be an instance where an AI could find
+tuberculosis more accurately then human doctors but the way it worked is
+the the program was weighting the age of the machine that took the
+image, so older machine imaging led to more tuberculosis diagnosis. It
+requires humans to take in account any and all possible bias. If you
+know this you can account for it sure, but it's very hard to trust this
+many of the time when everyone is ready to unveil their new startup and
+get billions in funding. Again it goes back to the human element.
+
+  passerby said:
+
+  Any solutions worth exploring?
+
+  Click to expand...
+
+The ai cat is out of the bag. Even if you shut down every AI tech giant
+and made it illegal, you would just slow it's progress down. This tech
+is available for pretty much everyone and regulating is very difficult.
+When china banned some AI tech, researchers from there just moved to
+GitHub and it's safe to say that if the US or any country banned AI
+research would just move to a country where there aren't laws for it and
+or politicians don't care. Outside of outfitting every website and piece
+of tech connected to the internet with an AI detector which is somehow
+100% accurate and also not proprietary, no solutions come to mind. A
+gated internet enforced by ID verification is one solution but I can
+write an entire essay about why that would be a bad idea.
+
+ 
+
+"I'll wake up in a new life, down by the seaside..."
+
+[xbgi1w.gif]
+
+Virtual Cafe Awards
+
+-   []
+-   []
+-   []
+-   []
+-   []
+-   []
+-   []
+-   []
+-   []
+-   []
+-   []
+
+Reply
+
+-   [Coffee (Like)]
+
+Reactions: 4d1, WKYK and passerby
+
+[Regal]
+
+Regal
+
+Active Traveler
+
+[] [] [] [] [] []
+
+Joined
+    Nov 20, 2022
+
+Messages
+    270
+
+Reaction score
+    911
+
+Awards
+    91
+
+-   Thursday at 9:21 AM
+
+-   
+-   #4
+
+I have nothing new to add to the ethics conversation. What I can say is
+with the million AI products Microsoft is pushing I am accidentally
+becoming an admin over AI products at work. The politics and in-fighting
+around it has been crazy. The concern I'm bringing to the table at work
+is around disinfromation. What happens to a company when all the
+employees are using AI that is confidently wrong? Especially when we're
+talking about customer data? Can't be good, is all I know.
+
+ 
+
+Reply
+
+-   [Coffee (Like)]
+-   [THIS]
+
+Reactions: 4d1, LostintheCycle, passerby and 1 other person
+
+[NSoph]
+
+NSoph
+
+The Singularity is Now
+
+[]
+
+Joined
+    Jul 12, 2022
+
+Messages
+    165
+
+Reaction score
+    706
+
+Awards
+    78
+
+-   Thursday at 11:55 AM
+
+-   
+-   #5
+
+  passerby said:
+
+  Fellow Agora Road Travelers: What do you guys think about all of this?
+  Any solutions worth exploring?
+
+  Click to expand...
+
+The company Zeiss and ASML in Europe produce the equipment necessary for
+advanced lithography to produce high-end chips.
+A disruption in the development and manufacturing of these tools would
+theoretically lead to a diminished capacity to increase the size of
+future training runs
+Transcript from the intro of the first video with added emphasis:
+"At the center of this big factory in the Netherlands, in the midst of a
+months-long assembly process,
+there's a revolutionary machine that the whole world has come to rely
+on.
+You can see an EUV machine right behind me.
+The size of a city bus, but working with atomic level precision, these
+EUV lithography machines are the most expensive step in making every
+advanced
+microchip that powers the modern digital age: data centers, cars and
+every single iPhone.
+We are the only provider on the planet of this critical technology.
+These machines are the only way to print miniscule designs on these
+chips. They cost up to $200 million. And they're only made by a single
+company:
+Advanced Semiconductor Materials Lithography, or ASML.
+Today, ASML has a monopoly on the fabrication of EUV lithography
+machines, the most advanced type of lithography equipment that's needed
+to make every
+single advanced processor chip that we use today. And this company is
+one of the most extraordinary organizations in the world. The machines
+that
+they produce, each one of them is among the most complicated devices
+ever made.
+In the midst of a chip shortage that's caused backorders of everything
+from PS5s to Teslas, the need for ASML has never been higher. Its stock
+has
+skyrocketed since 2018. While it's three main customers, chipmakers
+TSMC, Intel and Samsung vie to be front-of-line for ASML's next
+breakthrough
+technology. The price tag for this next machine, which promises to push
+the boundaries of known physics, is more than $300 million.
+It's so expensive that most companies cannot afford it."
+View: https://www.youtube.com/watch?v=iSVHp6CAyQ8
+View: https://www.youtube.com/watch?v=V__HbVlnICc
+They might as well put a "kick-me" sign on their company logo
+
+[istockphoto-1164644000-612x612.jpg]
+
+ 
+
+Last edited: Thursday at 12:16 PM
+
+"Nothing human makes it out of the near-future."
+― Nick Land
+
+[loop eyes GIF by Sakke Soini]
+
+[200.gif]
+
+Virtual Cafe Awards
+
+-   []
+-   []
+-   []
+-   []
+-   []
+-   []
+-   []
+-   []
+-   []
+-   []
+-   []
+-   []
+
+Reply
+
+[Collision]
+
+Collision
+
+Green Tea Ice Cream
+
+[] [] [] [] [] []
+
+Joined
+    Jun 5, 2022
+
+Messages
+    378
+
+Reaction score
+    1,391
+
+Awards
+    124
+
+-   Thursday at 1:27 PM
+
+-   
+-   #6
+
+Having read your article, I think you should put more time and effort
+into the structure and presentation of your writing. I've struggled to
+find a point in this, and I feel like the point would be best offered up
+front. You clearly have something to say about technology, but I think
+it's muddied by a dizzying series of claims about AI. Most of these
+claims lack any citation and so they come across as completely
+speculative. Where your claims are cited, I felt many of them were
+misleading. As a result, I'm left feeling like you probably don't have a
+great command of any of the diverse subject matter that you're
+discussing.
+You say that you are publishing, "research based speculation about the
+future." How are you going about your research? I appreciate that some
+of your information is coming from academic or government sources.
+However, most of the hyperlinks in your article lead to newspapers,
+magazines, or back to your own writing. I don't think that popular media
+is a great resource when it comes to understanding technology. Maybe
+you're doing a lot of academic research behind the scenes. If you are
+you should put it in your article because, I think, it would go a long
+way to improving your credibility.
+
+ 
+
+------------------------------------------------------------------------
+
+[640o4d.gif]
+
+Virtual Cafe Awards
+
+-   []
+-   []
+-   []
+-   []
+-   []
+-   []
+-   []
+-   []
+-   []
+-   []
+-   []
+-   []
+
+Reply
+
+-   [Coffee (Like)]
+
+Reactions: passerby
+
+[passerby]
+
+passerby
+
+passerby
+
+[] [] [] [] []
+
+Joined
+    Aug 1, 2023
+
+Messages
+    31
+
+Reaction score
+    45
+
+Awards
+    12
+
+Website
+    shannoncuthrell.substack.com
+
+-   Thursday at 3:22 PM
+
+-   
+-   #7
+
+  Collision said:
+
+  Having read your article, I think you should put more time and effort
+  into the structure and presentation of your writing. I've struggled to
+  find a point in this, and I feel like the point would be best offered
+  up front. You clearly have something to say about technology, but I
+  think it's muddied by a dizzying series of claims about AI. Most of
+  these claims lack any citation and so they come across as completely
+  speculative. Where your claims are cited, I felt many of them were
+  misleading. As a result, I'm left feeling like you probably don't have
+  a great command of any of the diverse subject matter that you're
+  discussing.
+  You say that you are publishing, "research based speculation about the
+  future." How are you going about your research? I appreciate that some
+  of your information is coming from academic or government sources.
+  However, most of the hyperlinks in your article lead to newspapers,
+  magazines, or back to your own writing. I don't think that popular
+  media is a great resource when it comes to understanding technology.
+  Maybe you're doing a lot of academic research behind the scenes. If
+  you are you should put it in your article because, I think, it would
+  go a long way to improving your credibility.
+
+  Click to expand...
+
+I appreciate the feedback. What parts were incorrect or misleading? I
+put a lot of effort into making sure the claims were correct, citing
+relevant sources throughout the piece. I didn't cite sources for some of
+the more abstract arguments because they're just exploring
+possibilities, as implied. I'd like to know what factual gaps I'm
+missing. Can you clarify?
+I did write this essay several months ago, so maybe that's where the
+blind spots are? Before posting it here, I made a few changes to reflect
+more recent news.
+In spots where I linked news articles, it's because I was referencing
+news items or trends in time (i.e., academic or authoritative sources
+were irrelevant or hadn't been established). I did lots of fact-checking
+for the more specific claims and linked sources accordingly.
+
+ 
+
+Last edited: Thursday at 3:57 PM
+
+Reply
+
+[passerby]
+
+passerby
+
+passerby
+
+[] [] [] [] []
+
+Joined
+    Aug 1, 2023
+
+Messages
+    31
+
+Reaction score
+    45
+
+Awards
+    12
+
+Website
+    shannoncuthrell.substack.com
+
+-   Thursday at 3:41 PM
+
+-   
+-   #8
+
+  imnotdeadyet said:
+
+  If used correctly people are very much okay with AI. As you say in
+  your own text the majority of Americans (and arguably much of the
+  world) have heard of and used ChatGPT. Not only use but they trust it,
+  students have it write essays, lawyers have it research cases for them
+  (and it did it poorly i might add), google scholar was at one point
+  overrun with ai generated articles. Ai in it's inferior state a few
+  months ago won an art contest. People don't care about ethics as long
+  as it doesn't affect them. Even the artist outcry isn't really about
+  "the sanctity the artistic process" as most of them would say it's
+  about copyright and industry jobs, which is more then fair but people
+  love to cloak their opinions with a layer of "concern about ethics and
+  culture". Safe to say that for most ethics and norms aren't even a
+  question but that AI is catching up to a once thought unreachable
+  industry. As for deepfakes, scammers are getting use out of them and
+  politicans are fucking around with the tech. And again no one cares.
+  Now this is my major concern, not Skynet but the economy. It is more
+  then capable and will be even more capable to just automate so many
+  people out of work. Again most do not care as it hasn't reached them
+  yet but they will soon enough. As with everything AI related the world
+  does not have safeguards in place for this, no alternative plan.
+  People are just expected to take it as they have before and switch
+  jobs, maybe get that ever more tantalizing coding gig (or maybe not).
+  No one is really thinking about what 300 million people losing their
+  jobs would do and i'm afraid that I don't have a solution either. What
+  do they and maybe even we do? Do we all grab virtual avatars and
+  become online entertainers or maybe they'll make more bullshit jobs
+  for us all to accommodate the ever crumbling global economy? I heard
+  prompt engineering is the new hot thing.
+  Let's be real, all this alignment or whatever they want to call it is
+  just tweaking the ai so it doesn't spit out something that's gonna
+  harm the corpo brand or that would get it regulated.
+  I agree, AI could never end humanity because a human first would have
+  to put it in a position where it can do harm. Like manning armed
+  drones for example, or plugging it into nukes. Humans will ultimately
+  be at fault for our own downfall if we let an unstable AI control
+  important systems and if that happens it's hard to say that it isn't
+  deserved. Play dumb games win dumb prizes. And unfortunately we're
+  very happy to play dumb games and it's going to harm regular people,
+  for example with predictive policing.
+  If controlled yes AI can be a force for good. The problem is just how
+  wiling and trusting people are of systems that even the researchers
+  that built them didn't really understand until lately. And it's worth
+  asking if they understand them even now. I'm all for use but as long
+  as it can be verified that these things actually put out accurate
+  information. Researchers often times aren't sure how machines even
+  reach given results. For example there could be an instance where an
+  AI could find tuberculosis more accurately then human doctors but the
+  way it worked is the the program was weighting the age of the machine
+  that took the image, so older machine imaging led to more tuberculosis
+  diagnosis. It requires humans to take in account any and all possible
+  bias. If you know this you can account for it sure, but it's very hard
+  to trust this many of the time when everyone is ready to unveil their
+  new startup and get billions in funding. Again it goes back to the
+  human element.
+  The ai cat is out of the bag. Even if you shut down every AI tech
+  giant and made it illegal, you would just slow it's progress down.
+  This tech is available for pretty much everyone and regulating is very
+  difficult. When china banned some AI tech, researchers from there just
+  moved to GitHub and it's safe to say that if the US or any country
+  banned AI research would just move to a country where there aren't
+  laws for it and or politicians don't care. Outside of outfitting every
+  website and piece of tech connected to the internet with an AI
+  detector which is somehow 100% accurate and also not proprietary, no
+  solutions come to mind. A gated internet enforced by ID verification
+  is one solution but I can write an entire essay about why that would
+  be a bad idea.
+
+  Click to expand...
+
+Well said, especially the part about jobs. There's a positive spin on AI
+for retooling/training workers to be more efficient and expand their
+skills. But what's the point if there won't be any jobs they can excel
+in?
+
+ 
+
+Reply
+
+-   [THIS]
+
+Reactions: imnotdeadyet
+
+[passerby]
+
+passerby
+
+passerby
+
+[] [] [] [] []
+
+Joined
+    Aug 1, 2023
+
+Messages
+    31
+
+Reaction score
+    45
+
+Awards
+    12
+
+Website
+    shannoncuthrell.substack.com
+
+-   Thursday at 3:43 PM
+
+-   
+-   #9
+
+  Regal said:
+
+  I have nothing new to add to the ethics conversation. What I can say
+  is with the million AI products Microsoft is pushing I am accidentally
+  becoming an admin over AI products at work. The politics and
+  in-fighting around it has been crazy. The concern I'm bringing to the
+  table at work is around disinfromation. What happens to a company when
+  all the employees are using AI that is confidently wrong? Especially
+  when we're talking about customer data? Can't be good, is all I know.
+
+  Click to expand...
+
+Interesting. Are other employees bringing this up too? Will they listen
+if everyone says the AI is shit for X, Y, Z [insert practical reason]?
+
+ 
+
+Reply
+
+[imnotdeadyet]
+
+imnotdeadyet
+
+A Bit Closer to Heaven
+
+[]
+
+Joined
+    Jul 22, 2023
+
+Messages
+    133
+
+Reaction score
+    359
+
+Awards
+    50
+
+Website
+    downbytheseasi.de
+
+-   Thursday at 5:39 PM
+
+-   
+-   #10
+
+  passerby said:
+
+  There's a positive spin on AI for retooling/training workers to be
+  more efficient and expand their skills.
+
+  Click to expand...
+
+Yeah, I'm sure that it will be like that for some jobs at least in the
+beginning. But looking at it from a corporate perspective and the fact
+that ai is (at least in theory) supposed to progressively get better at
+everything there will be a point where they'll do it as good or better
+then a human and economically it would make sense to keep just the AI.
+The whole skills thing and the opinion that ai will make more jobs then
+it automates is just to keep people from freaking out. There really is
+no concrete solution besides laws mandating human workers or if AI hits
+an evolutionary wall which is unlikely.
+
+ 
+
+"I'll wake up in a new life, down by the seaside..."
+
+[xbgi1w.gif]
+
+Virtual Cafe Awards
+
+-   []
+-   []
+-   []
+-   []
+-   []
+-   []
+-   []
+-   []
+-   []
+-   []
+-   []
+
+Reply
+
+-   [THIS]
+-   [Coffee (Like)]
+
+Reactions: LostintheCycle and passerby
+
+[Collision]
+
+Collision
+
+Green Tea Ice Cream
+
+[] [] [] [] [] []
+
+Joined
+    Jun 5, 2022
+
+Messages
+    378
+
+Reaction score
+    1,391
+
+Awards
+    124
+
+-   Thursday at 5:41 PM
+
+-   
+-   #11
+
+  passerby said:
+
+  What parts were incorrect or misleading?
+
+  Click to expand...
+
+The specific claims that I found misleading were the following:
+
+  passerby said:
+
+  In a new but predictable move, AI's tendrils have reached culture.
+  AI-generated music and art offer a similar productive utility but with
+  greater social implications, leading us to rethink longstanding
+  copyright protections.
+
+  Click to expand...
+
+To me, the phrase "rethink longstanding copyright protections" implies
+that copyright law in the US is being changed in some fundamental way by
+AI. I read the linked statement from the US copyright office. It
+indicates that there's interest in a future public inquiry on how
+copyrighted works used in AI training data might be handled and seeks to
+clarify that substantial human authorship is a requirement for copyright
+in the US. I'm not sure how this is a rethinking of longstanding
+copyright protections. No protections have changed based on the
+statement. Mostly this is a statement of long standing policy (the case
+the statement cites, Burrow-Giles Lithographic Co. v. Sarony, is from
+1884).
+
+  passerby said:
+
+  One initial safeguard built into ChatGPT was that it couldn't access
+  the internet beyond September 2021, setting a limit on its knowledge
+  of current events and (potential) manipulation of real-time
+  information. OpenAI has since given ChatGPT access to the internet:
+  The company rolled out this feature in September 2023, providing users
+  "with current and authoritative information, complete with direct
+  links to sources."
+
+  Click to expand...
+
+I think this claim is misleading because, to me, it implies that GPT-4
+is being allowed to train itself on the public internet, and it implies
+that somehow GPT-4 might become a dangerous superintelligence as a
+result. However, the link just leads to a Twitter post demonstrating a
+new feature wherein ChatGPT can summarize web results based on a prompt.
+No further technical details are given. I don't think GPT-4 capable of
+the kind of exponential take off people are so worried about.
+Personally, I'm also unsure that limiting GPT-4's training data to a web
+scrape from 2021 is a meaningful safeguard against anything anyway. I
+don't know if OpenAI has presented it that way, but I wouldn't be
+surprised if they had.
+
+  passerby said:
+
+  In one recent example, scientists developed a "brain-decoder" that can
+  accurately read a person's unspoken thoughts by analyzing the language
+  in their brain.
+
+  Click to expand...
+
+This one links to a Vox article about an article published in Nature.
+Generally, I think it would be better to follow the chain through to the
+primary source here. As a result, I didn't bother to read the Vox
+article, and instead I went directly to Nature. The article in Nature
+describes an experiment where researchers used AI to determine what a
+person was thinking based on an fMRI. I think claiming that this
+so-called brain-decoder can accurately read a person's thoughts is
+misleading. I think this because the article in Nature claims that the
+word error rate was between 92% and 94%. I also think it's a bit
+misleading to omit the requirements for this technology to function. It
+required sixteen hours of fMRI data from each subject, and the system
+needed to be trained for each specific subject.
+
+  passerby said:
+
+  [Comics from a paper in the Journal of Artificial Intelligence
+  Research ]
+
+  Pertinent figures from a paper in the Journal of Artificial
+  Intelligence Research (via SemanticScholar.com)​
+
+  Click to expand...
+
+I'm not super critical of your use of cartoons. However, I've been
+looking over the paper that these came from and I, personally, just
+think it's incredibly silly. The paper opens with examples from science
+fiction (i.e., Asimov) and then proceeds on to a proof that whether or
+not a Turing machine harms humans is undecidable. In my opinion, this is
+a totally asinine conclusion. They're basically just restating
+undergraduate computer science lessons with a coat of AI paint. The
+paper then returns to sci-fi, and it proceeds to make factually
+inaccurate statements like, "we have no way of proving that when we
+launch an application on our smart phones, we would not trigger a chain
+reaction that leads to transmission of missile launch codes that start a
+nuclear war." You really shouldn't use anything from this embarrassing
+paper.
+I suspect that if I went through every sourced claim in the article then
+I would find more examples. This was enough for me to consider the whole
+thing a lost cause though.
+
+ 
+
+------------------------------------------------------------------------
+
+[640o4d.gif]
+
+Virtual Cafe Awards
+
+-   []
+-   []
+-   []
+-   []
+-   []
+-   []
+-   []
+-   []
+-   []
+-   []
+-   []
+-   []
+
+Reply
+
+-   [Coffee (Like)]
+
+Reactions: LostintheCycle
+
+[passerby]
+
+passerby
+
+passerby
+
+[] [] [] [] []
+
+Joined
+    Aug 1, 2023
+
+Messages
+    31
+
+Reaction score
+    45
+
+Awards
+    12
+
+Website
+    shannoncuthrell.substack.com
+
+-   Thursday at 6:16 PM
+
+-   
+-   #12
+
+  imnotdeadyet said:
+
+  Yeah, I'm sure that it will be like that for some jobs at least in the
+  beginning. But looking at it from a corporate perspective and the fact
+  that ai is (at least in theory) supposed to progressively get better
+  at everything there will be a point where they'll do it as good or
+  better then a human and economically it would make sense to keep just
+  the AI. The whole skills thing and the opinion that ai will make more
+  jobs then it automates is just to keep people from freaking out. There
+  really is no concrete solution besides laws mandating human workers or
+  if AI hits an evolutionary wall which is unlikely.
+
+  Click to expand...
+
+So true. As long as it makes economic sense to keep the AI, we'll keep
+dealing with these problems and getting nowhere.
+
+ 
+
+Reply
+
+-   [Coffee (Like)]
+
+Reactions: imnotdeadyet
+
+[Regal]
+
+Regal
+
+Active Traveler
+
+[] [] [] [] [] []
+
+Joined
+    Nov 20, 2022
+
+Messages
+    270
+
+Reaction score
+    911
+
+Awards
+    91
+
+-   Thursday at 7:09 PM
+
+-   
+-   #13
+
+  passerby said:
+
+  Interesting. Are other employees bringing this up too? Will they
+  listen if everyone says the AI is shit for X, Y, Z [insert practical
+  reason]?
+
+  Click to expand...
+
+Others have similar concerns. Fortunately we have an Ethics team that is
+helping determine what and what not to do. However I don't see us using
+zero AI. The consensus in corpo middle management and leadership circles
+is that the company will fall behind because our competitors will outdo
+us via AI. It doesn't sound like this is an uncommon story in corpos and
+startups. If you don't have good AI you will get killed in the
+capitalism game, it seems.
+
+ 
+
+Reply
+
+-   [Coffee (Like)]
+
+Reactions: passerby and imnotdeadyet
+
+[passerby]
+
+passerby
+
+passerby
+
+[] [] [] [] []
+
+Joined
+    Aug 1, 2023
+
+Messages
+    31
+
+Reaction score
+    45
+
+Awards
+    12
+
+Website
+    shannoncuthrell.substack.com
+
+-   Yesterday at 5:17 PM
+
+-   
+-   #14
+
+  Collision said:
+
+  The specific claims that I found misleading were the following:
+  To me, the phrase "rethink longstanding copyright protections" implies
+  that copyright law in the US is being changed in some fundamental way
+  by AI. I read the linked statement from the US copyright office. It
+  indicates that there's interest in a future public inquiry on how
+  copyrighted works used in AI training data might be handled and seeks
+  to clarify that substantial human authorship is a requirement for
+  copyright in the US. I'm not sure how this is a rethinking of
+  longstanding copyright protections. No protections have changed based
+  on the statement. Mostly this is a statement of long standing policy
+  (the case the statement cites, Burrow-Giles Lithographic Co. v.
+  Sarony, is from 1884).
+  I think this claim is misleading because, to me, it implies that GPT-4
+  is being allowed to train itself on the public internet, and it
+  implies that somehow GPT-4 might become a dangerous superintelligence
+  as a result. However, the link just leads to a Twitter post
+  demonstrating a new feature wherein ChatGPT can summarize web results
+  based on a prompt. No further technical details are given. I don't
+  think GPT-4 capable of the kind of exponential take off people are so
+  worried about. Personally, I'm also unsure that limiting GPT-4's
+  training data to a web scrape from 2021 is a meaningful safeguard
+  against anything anyway. I don't know if OpenAI has presented it that
+  way, but I wouldn't be surprised if they had.
+  This one links to a Vox article about an article published in Nature.
+  Generally, I think it would be better to follow the chain through to
+  the primary source here. As a result, I didn't bother to read the Vox
+  article, and instead I went directly to Nature. The article in Nature
+  describes an experiment where researchers used AI to determine what a
+  person was thinking based on an fMRI. I think claiming that this
+  so-called brain-decoder can accurately read a person's thoughts is
+  misleading. I think this because the article in Nature claims that the
+  word error rate was between 92% and 94%. I also think it's a bit
+  misleading to omit the requirements for this technology to function.
+  It required sixteen hours of fMRI data from each subject, and the
+  system needed to be trained for each specific subject.
+  I'm not super critical of your use of cartoons. However, I've been
+  looking over the paper that these came from and I, personally, just
+  think it's incredibly silly. The paper opens with examples from
+  science fiction (i.e., Asimov) and then proceeds on to a proof that
+  whether or not a Turing machine harms humans is undecidable. In my
+  opinion, this is a totally asinine conclusion. They're basically just
+  restating undergraduate computer science lessons with a coat of AI
+  paint. The paper then returns to sci-fi, and it proceeds to make
+  factually inaccurate statements like, "we have no way of proving that
+  when we launch an application on our smart phones, we would not
+  trigger a chain reaction that leads to transmission of missile launch
+  codes that start a nuclear war." You really shouldn't use anything
+  from this embarrassing paper.
+  I suspect that if I went through every sourced claim in the article
+  then I would find more examples. This was enough for me to consider
+  the whole thing a lost cause though.
+
+  Click to expand...
+
+I think you're reading too much into my link choice and taking
+everything else at face value. My points still stand.
+
+  To me, the phrase "rethink longstanding copyright protections" implies
+  that copyright law in the US is being changed in some fundamental way
+  by AI. I read the linked statement from the US copyright office. It
+  indicates that there's interest in a future public inquiry on how
+  copyrighted works used in AI training data might be handled and seeks
+  to clarify that substantial human authorship is a requirement for
+  copyright in the US. I'm not sure how this is a rethinking of
+  longstanding copyright protections. No protections have changed based
+  on the statement. Mostly this is a statement of long standing policy
+  (the case the statement cites, Burrow-Giles Lithographic Co. v.
+  Sarony, is from 1884).
+
+  Click to expand...
+
+It's a fact that AI is leading us to rethink longstanding copyright
+protections. Whether that translates to actual policy changes remains to
+be seen. But again, that wasn't the point I made. (Here's some further
+reading in Bloomberg Law.)
+
+  I think this claim is misleading because, to me, it implies that GPT-4
+  is being allowed to train itself on the public internet, and it
+  implies that somehow GPT-4 might become a dangerous superintelligence
+  as a result. However, the link just leads to a Twitter post
+  demonstrating a new feature wherein ChatGPT can summarize web results
+  based on a prompt. No further technical details are given. I don't
+  think GPT-4 capable of the kind of exponential take off people are so
+  worried about. Personally, I'm also unsure that limiting GPT-4's
+  training data to a web scrape from 2021 is a meaningful safeguard
+  against anything anyway. I don't know if OpenAI has presented it that
+  way, but I wouldn't be surprised if they had.
+
+  Click to expand...
+
+Again, you're focusing on the tweet I linked to. OpenAI said ChatGPT can
+now browse the internet unlike before. You don't need technical details
+to understand what changed. I said nothing about training in this
+paragraph.
+
+  This one links to a Vox article about an article published in Nature.
+  Generally, I think it would be better to follow the chain through to
+  the primary source here. As a result, I didn't bother to read the Vox
+  article, and instead I went directly to Nature. The article in Nature
+  describes an experiment where researchers used AI to determine what a
+  person was thinking based on an fMRI. I think claiming that this
+  so-called brain-decoder can accurately read a person's thoughts is
+  misleading. I think this because the article in Nature claims that the
+  word error rate was between 92% and 94%. I also think it's a bit
+  misleading to omit the requirements for this technology to function.
+  It required sixteen hours of fMRI data from each subject, and the
+  system needed to be trained for each specific subject.
+
+  Click to expand...
+
+I hear you on the MSM links. I could do a better job of linking primary
+sources. But this was hardly a major part of the article. I put
+parentheses around that sentence to signal it's a side note. It's simply
+a passive example of AI potentially going to the next level. The
+technical details of the study are irrelevant to this essay.
+The cartoon was just supposed to be a fun visual.
+This is an opinionated essay meant to be thought-provoking, not an
+academic paper drilling into every technical point with painstaking
+detail. You don't need to be a computer science expert to see the
+underlying trends and have an opinion on them, as evidenced by the
+compelling reactions the essay has received thus far.
+
+ 
+
+Last edited: Yesterday at 5:52 PM
+
+Reply
+
+[passerby]
+
+passerby
+
+passerby
+
+[] [] [] [] []
+
+Joined
+    Aug 1, 2023
+
+Messages
+    31
+
+Reaction score
+    45
+
+Awards
+    12
+
+Website
+    shannoncuthrell.substack.com
+
+-   Yesterday at 5:55 PM
+
+-   
+-   #15
+
+  Regal said:
+
+  Others have similar concerns. Fortunately we have an Ethics team that
+  is helping determine what and what not to do. However I don't see us
+  using zero AI. The consensus in corpo middle management and leadership
+  circles is that the company will fall behind because our competitors
+  will outdo us via AI. It doesn't sound like this is an uncommon story
+  in corpos and startups. If you don't have good AI you will get killed
+  in the capitalism game, it seems.
+
+  Click to expand...
+
+Yepp. They have to compete somehow.
+
+ 
+
+Reply
+
+[LostintheCycle]
+
+LostintheCycle
+
+Formerly His Holeliness
+
+Gold
+
+[]
+
+[] []
+
+Joined
+    Apr 4, 2022
+
+Messages
+    694
+
+Reaction score
+    2,702
+
+Awards
+    200
+
+-   Today at 1:46 AM
+
+-   
+-   #16
+
+  Collision said:
+
+  You say that you are publishing, "research based speculation about the
+  future."
+
+  Click to expand...
+
+I swear I read that as well in the OP... and I also see this
+
+[1696841082552.png]
+
+  passerby said:
+
+  This is an opinionated essay meant to be thought-provoking, not an
+  academic paper drilling into every technical point with painstaking
+  detail.
+
+  Click to expand...
+
+So is it research-based speculation, or an opinionated essay?
+
+ 
+
+------------------------------------------------------------------------
+
+[index.php]
+
+[index.php]
+
+Virtual Cafe Awards
+
+-   []
+-   []
+-   []
+-   []
+-   []
+-   []
+-   []
+-   []
+-   []
+-   []
+-   []
+
+Reply
+
+Name
+
+Post reply
+
+Similar threads
+
+  Thread starter                Title                                                                                                                           Forum                                       Replies   Date
+  ----------------------------- ------------------------------------------------------------------------------------------------------------------------------- ------------------------------------------- --------- --------------
+  [Another Name]                Gang Tags                                                                                                                       General Discussion                          31        May 25, 2022
+  [FAILSAF_12]                  what are agora gang tags?????????                                                                                               General Discussion                          1         Apr 23, 2022
+  [Hadrian Hardrada Cicero]     DISCUSSION MOVED TO NEW THREAD | Agora Road Clan tags? (Online games we can all play together?)                                 Video Games                                 69        Dec 20, 2021
+  [Andy Kaufman]                Dead Internet: Reloaded! Humans becoming bots                                                                                   Current Events, Philosophy, & Paranormal.   54        Jul 18, 2023
+  [IceFord345]                  Do you believe in evolution? And do you believe that humans and apes shared a common ancestor and that is how humans evolved?   General Discussion                          24        Jul 18, 2023
+  [VaporwaveHistorian]          Humans are inherently good and the world is inherently beautiful.                                                               General Discussion                          0         Jun 9, 2023
+  [Nebulous]                    Are humans good or evil?                                                                                                        General Discussion                          8         Nov 26, 2022
+  [cumslegborenail]             Cumsleg Borenail - Eat Humans (No-Stalgia, Vaporwave, Scumdrawl)                                                                Music Artists/Production/Discussion         0         Aug 31, 2022
+  [gathermore]                  Are humans gonna be structured like bees by 2026 like Nikola Tesla Thought?                                                     Current Events, Philosophy, & Paranormal.   4         Dec 23, 2021
+
+Similar threads
+
+-   [Another Name]
+
+    Gang Tags
+    -   Started by Another Name
+    -   May 25, 2022
+    -   Replies: 31
+
+    General Discussion
+
+-   [FAILSAF_12]
+
+    what are agora gang tags?????????
+    -   Started by FAILSAF_12
+    -   Apr 23, 2022
+    -   Replies: 1
+
+    General Discussion
+
+-   [Hadrian Hardrada Cicero]
+
+    DISCUSSION MOVED TO NEW THREAD | Agora Road Clan tags? (Online games
+    we can all play together?)
+    -   Started by Hadrian Hardrada Cicero
+    -   Dec 20, 2021
+    -   Replies: 69
+
+    Video Games
+
+-   [Andy Kaufman]
+
+    Dead Internet: Reloaded! Humans becoming bots
+    -   Started by Andy Kaufman
+    -   Jul 18, 2023
+    -   Replies: 54
+
+    Current Events, Philosophy, & Paranormal.
+
+-   [IceFord345]
+
+    Do you believe in evolution? And do you believe that humans and apes
+    shared a common ancestor and that is how humans evolved?
+    -   Started by IceFord345
+    -   Jul 18, 2023
+    -   Replies: 24
+
+    General Discussion
+
+-   [VaporwaveHistorian]
+
+    Humans are inherently good and the world is inherently beautiful.
+    -   Started by VaporwaveHistorian
+    -   Jun 9, 2023
+    -   Replies: 0
+
+    General Discussion
+
+-   [Nebulous]
+
+    Are humans good or evil?
+    -   Started by Nebulous
+    -   Nov 26, 2022
+    -   Replies: 8
+
+    General Discussion
+
+-   [cumslegborenail]
+
+    Cumsleg Borenail - Eat Humans (No-Stalgia, Vaporwave, Scumdrawl)
+    -   Started by cumslegborenail
+    -   Aug 31, 2022
+    -   Replies: 0
+
+    Music Artists/Production/Discussion
+
+-   [gathermore]
+
+    Are humans gonna be structured like bees by 2026 like Nikola Tesla
+    Thought?
+    -   Started by gathermore
+    -   Dec 23, 2021
+    -   Replies: 4
+
+    Current Events, Philosophy, & Paranormal.
+
+Share:
+
+Facebook Twitter Reddit Pinterest Tumblr WhatsApp Email Share Link
+
+-   Home
+-   Forums
+-   General Discussion
+-   Hidden Internet
+
+-    Macintosh Cafe OS - After Dark
+-   
+
+-   Terms and rules
+-   Privacy policy
+-   Help
+-   Home
+-   RSS
+
+-   Youtube
+
+Menu
+
+Log in
+
+------------------------------------------------------------------------
+
+Register
+
+------------------------------------------------------------------------
+
+Install the app
+
+Install
+
+-   This site uses cookies to help personalise content, tailor your
+    experience and to keep you logged in if you register.
+    By continuing to use this site, you are consenting to our use of
+    cookies.
+
+    Accept Learn more…

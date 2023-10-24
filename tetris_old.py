@@ -15,7 +15,7 @@ GRID_SIZE = 30
 
 # Tetris shapes
 SHAPES = [
-    [[1], [1], [1], [1]],
+    [[1]],
     [[1, 1], [1, 1]],
     [[0, 1, 0], [1, 1, 1]],
     [[1, 0, 0], [1, 1, 1]],
@@ -28,12 +28,6 @@ SHAPES = [
 grid = [[0 for _ in range(SCREEN_WIDTH // GRID_SIZE)] for _ in range(SCREEN_HEIGHT // GRID_SIZE)]
 current_shape = random.choice(SHAPES)
 current_pos = [0, 0]
-fall_time = 0
-fall_speed = 500  # milliseconds
-last_fall_time = pygame.time.get_ticks()
-space_down = False  # For controlling rotation
-last_move_time = 0
-move_delay = 300  # in milliseconds
 
 def draw_grid():
     for i in range(0, SCREEN_WIDTH, GRID_SIZE):
@@ -51,6 +45,7 @@ def valid_move(shape, offset):
     for y, row in enumerate(shape):
         for x, cell in enumerate(row):
             try:
+                # Check if it's outside the grid or colliding
                 if cell:
                     if x + offset[0] // GRID_SIZE < 0 or \
                        x + offset[0] // GRID_SIZE >= (SCREEN_WIDTH // GRID_SIZE) or \
@@ -83,70 +78,45 @@ def draw_merged_shapes():
             if cell:
                 pygame.draw.rect(SCREEN, BLUE, (x * GRID_SIZE, y * GRID_SIZE, GRID_SIZE, GRID_SIZE))
 
-def display_game_over():
-    font = pygame.font.Font(None, 74)
-    text = font.render('Game Over', True, WHITE)
-    SCREEN.blit(text, [SCREEN_WIDTH // 4, SCREEN_HEIGHT // 3])
-    pygame.display.flip()
+# ... (the rest of your code stays the same up until the main loop)
 
-def game_over():
-    for cell in grid[0]:
-        if cell:
-            display_game_over()
-            
-            waiting = True
-            while waiting:
-                for event in pygame.event.get():
-                    if event.type == pygame.QUIT:
-                        pygame.quit()
-                        sys.exit()
-                    if event.type == pygame.KEYUP:
-                        waiting = False
-                        
-            return True
-    return False
+# New variables to control the timing
+fall_time = 0
+fall_speed = 500  # milliseconds
+last_fall_time = pygame.time.get_ticks()
 
 while True:
-    # Check for Game Over
-    if game_over():
-        print("Game Over!")
-        pygame.quit()
-        sys.exit()
-
     SCREEN.fill((0, 0, 0))
     current_time = pygame.time.get_ticks()
-    
     for event in pygame.event.get():
         if event.type == pygame.QUIT:
             pygame.quit()
             sys.exit()
-        if event.type == pygame.KEYDOWN:
-            if event.key == pygame.K_SPACE and not space_down:
-                new_shape = [list(row) for row in zip(*reversed(current_shape))]
-                if valid_move(new_shape, current_pos):
-                    current_shape = new_shape
-                space_down = True
-        if event.type == pygame.KEYUP:
-            if event.key == pygame.K_SPACE:
-                space_down = False
 
     keys = pygame.key.get_pressed()
 
+    # Left movement
     if keys[pygame.K_LEFT]:
         new_pos = [current_pos[0] - GRID_SIZE, current_pos[1]]
         if valid_move(current_shape, new_pos):
             current_pos = new_pos
+    # Right movement
     if keys[pygame.K_RIGHT]:
         new_pos = [current_pos[0] + GRID_SIZE, current_pos[1]]
         if valid_move(current_shape, new_pos):
             current_pos = new_pos
+    # Down movement
     if keys[pygame.K_DOWN]:
         new_pos = [current_pos[0], current_pos[1] + GRID_SIZE]
         if valid_move(current_shape, new_pos):
             current_pos = new_pos
+    # Rotation
+    if keys[pygame.K_SPACE]:
+        new_shape = [list(row) for row in zip(*reversed(current_shape))]
+        if valid_move(new_shape, current_pos):
+            current_shape = new_shape
 
-    last_move_time = current_time
-
+    # Automatic falling
     if current_time - last_fall_time > fall_speed:
         if valid_move(current_shape, [current_pos[0], current_pos[1] + GRID_SIZE]):
             current_pos[1] += GRID_SIZE
@@ -159,5 +129,4 @@ while True:
     draw_shape(current_shape, current_pos)
     draw_merged_shapes()
     pygame.display.update()
-    CLOCK.tick(30)
-
+    CLOCK.tick(30)  # Changed to 30 FPS for more responsive controls

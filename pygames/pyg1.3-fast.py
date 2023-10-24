@@ -113,7 +113,6 @@ def clear_screen():
 def display_categories():
     # Function to display available game categories
     clear_screen()
-    print_header()
     display_center_text(TEXT_COLOR_CYAN + TEXT_BOLD + "\n -> CATEGORIES:\n" + TEXT_COLOR_RESET)
     index = 1
     for category in sorted(game_categories.keys()):
@@ -125,7 +124,6 @@ def display_categories():
 def display_games(category):
     # Function to display games in a specific category
     clear_screen()
-    print_header()
     display_center_text(TEXT_BOLD + TEXT_COLOR_CYAN + "\n -> {}\n".format(category) + TEXT_RESET)
     games = sorted(game_categories[category])
     index = 1
@@ -138,7 +136,6 @@ def display_games(category):
 def launch_game(game):
     # Function to launch a selected game
     clear_screen()
-    print_header()
     print_with_delay(TEXT_BOLD + TEXT_COLOR_YELLOW + " -> preparing ritual to summon {}...".format(game) + "\n\n" + TEXT_RESET)
     print_with_delay(TEXT_BOLD + TEXT_COLOR_RED + " -> evoking the machine spirit" + "\n\n"+ TEXT_RESET)
     print_with_delay(TEXT_BOLD + TEXT_COLOR_GREEN + " -> booting up..." + "\n\n"+ TEXT_RESET)
@@ -149,11 +146,9 @@ def launch_game(game):
         command = game_commands[game]
         os.system(command)
         clear_screen()
-        print_header()
         print_with_delay(TEXT_BOLD + TEXT_COLOR_YELLOW +"\n I hope you had fun wasting your time playing {}!\n".format(game) + TEXT_RESET)
     else:
         clear_screen()
-        print_header()
         print_with_delay(TEXT_COLOR_RED + TEXT_BOLD + "The Wizard says: Thou art a Fool! There is no command to launch {}!\n".format(game) + TEXT_RESET)
     input(TEXT_BOLD + TEXT_COLOR_RED +"\nPress Enter to continue..."+ TEXT_COLOR_RESET)
     display_categories()
