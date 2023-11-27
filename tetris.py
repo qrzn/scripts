@@ -5,6 +5,9 @@ import random
 # Initialize Pygame
 pygame.init()
 
+# Set the title of the window
+pygame.display.set_caption('Pytris 1.0')
+
 # Constants
 SCREEN_WIDTH, SCREEN_HEIGHT = 300, 600
 SCREEN = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
@@ -13,15 +16,24 @@ WHITE = (255, 255, 255)
 BLUE = (0, 0, 255)
 GRID_SIZE = 30
 
-# Tetris shapes
+# Define colors
+RED = (255, 0, 0)
+GREEN = (0, 255, 0)
+BLUE = (0, 0, 255)
+YELLOW = (255, 255, 0)
+ORANGE = (255, 165, 0)
+PURPLE = (128, 0, 128)
+CYAN = (0, 255, 255)
+
+# Define shapes with their unique colors
 SHAPES = [
-    [[1], [1], [1], [1]],
-    [[1, 1], [1, 1]],
-    [[0, 1, 0], [1, 1, 1]],
-    [[1, 0, 0], [1, 1, 1]],
-    [[0, 0, 1], [1, 1, 1]],
-    [[1, 1, 0], [0, 1, 1]],
-    [[0, 1, 1], [1, 1, 0]],
+    {'shape': [[1], [1], [1], [1]], 'color': RED},
+    {'shape': [[1, 1], [1, 1]], 'color': GREEN},
+    {'shape': [[0, 1, 0], [1, 1, 1]], 'color': BLUE},
+    {'shape': [[1, 0, 0], [1, 1, 1]], 'color': YELLOW},
+    {'shape': [[0, 0, 1], [1, 1, 1]], 'color': ORANGE},
+    {'shape': [[1, 1, 0], [0, 1, 1]], 'color': PURPLE},
+    {'shape': [[0, 1, 1], [1, 1, 0]], 'color': CYAN},
 ]
 
 # Initialize variables
@@ -29,11 +41,27 @@ grid = [[0 for _ in range(SCREEN_WIDTH // GRID_SIZE)] for _ in range(SCREEN_HEIG
 current_shape = random.choice(SHAPES)
 current_pos = [0, 0]
 fall_time = 0
-fall_speed = 500  # milliseconds
+fall_speed = 250  # milliseconds
 last_fall_time = pygame.time.get_ticks()
 space_down = False  # For controlling rotation
 last_move_time = 0
 move_delay = 300  # in milliseconds
+cleared_lines = 0
+# Select a random shape and its color
+selected_shape = random.choice(SHAPES)
+current_shape = selected_shape['shape']
+current_color = selected_shape['color']
+
+    # Initialize font for displaying cleared lines
+font = pygame.font.Font(None, 36)
+
+def remove_line():
+    global cleared_lines  # Declare as global to modify it
+    for i, row in enumerate(grid[:-1]):
+        if all(cell for cell in row):
+            del grid[i]
+            grid.insert(0, [0 for _ in range(SCREEN_WIDTH // GRID_SIZE)])
+            cleared_lines += 1  # Increment the counter
 
 def draw_grid():
     for i in range(0, SCREEN_WIDTH, GRID_SIZE):
@@ -41,11 +69,11 @@ def draw_grid():
     for i in range(0, SCREEN_HEIGHT, GRID_SIZE):
         pygame.draw.line(SCREEN, WHITE, (0, i), (SCREEN_WIDTH, i))
 
-def draw_shape(shape, offset):
+def draw_shape(shape, position):
     for y, row in enumerate(shape):
         for x, cell in enumerate(row):
             if cell:
-                pygame.draw.rect(SCREEN, BLUE, (offset[0] + x * GRID_SIZE, offset[1] + y * GRID_SIZE, GRID_SIZE, GRID_SIZE))
+                pygame.draw.rect(SCREEN, current_color, (position[0] + x * GRID_SIZE, position[1] + y * GRID_SIZE, GRID_SIZE, GRID_SIZE))
 
 def valid_move(shape, offset):
     for y, row in enumerate(shape):
@@ -62,26 +90,18 @@ def valid_move(shape, offset):
     return True
 
 def merge_shape():
-    global current_shape, current_pos, grid
+    global grid  # assuming your grid is a global variable
     for y, row in enumerate(current_shape):
         for x, cell in enumerate(row):
             if cell:
-                grid[y + current_pos[1] // GRID_SIZE][x + current_pos[0] // GRID_SIZE] = 1
-    current_shape = random.choice(SHAPES)
-    current_pos = [0, 0]
-
-def remove_line():
-    global grid
-    for i, row in enumerate(grid[:-1]):
-        if all(cell for cell in row):
-            del grid[i]
-            grid.insert(0, [0 for _ in range(SCREEN_WIDTH // GRID_SIZE)])
+                grid[(current_pos[1] + y * GRID_SIZE) // GRID_SIZE][(current_pos[0] + x * GRID_SIZE) // GRID_SIZE] = current_color
 
 def draw_merged_shapes():
     for y, row in enumerate(grid):
-        for x, cell in enumerate(row):
-            if cell:
-                pygame.draw.rect(SCREEN, BLUE, (x * GRID_SIZE, y * GRID_SIZE, GRID_SIZE, GRID_SIZE))
+        for x, color in enumerate(row):
+            if color:
+                pygame.draw.rect(SCREEN, color, (x * GRID_SIZE, y * GRID_SIZE, GRID_SIZE, GRID_SIZE))
+
 
 def display_game_over():
     font = pygame.font.Font(None, 74)
@@ -148,16 +168,28 @@ while True:
     last_move_time = current_time
 
     if current_time - last_fall_time > fall_speed:
-        if valid_move(current_shape, [current_pos[0], current_pos[1] + GRID_SIZE]):
-            current_pos[1] += GRID_SIZE
-        else:
-            merge_shape()
-            remove_line()
-        last_fall_time = current_time
+    	if valid_move(current_shape, [current_pos[0], current_pos[1] + GRID_SIZE]):
+        	current_pos[1] += GRID_SIZE
+    	else:
+        	merge_shape()
+        	remove_line()
+        # Select a new random shape and its color
+        	selected_shape = random.choice(SHAPES)
+        	current_shape = selected_shape['shape']
+        	current_color = selected_shape['color']
+        	# Reset the position to the top of the screen
+        	current_pos = [0, 0]
+    	last_fall_time = current_time
+
 
     draw_grid()
     draw_shape(current_shape, current_pos)
     draw_merged_shapes()
+
+    # Display cleared lines count
+    text_surface = font.render(f'Cleared Lines: {cleared_lines}', True, (255, 255, 255))
+    SCREEN.blit(text_surface, (10, 10))
+
     pygame.display.update()
-    CLOCK.tick(30)
+    CLOCK.tick(10)
 

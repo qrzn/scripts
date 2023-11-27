@@ -67,6 +67,7 @@ game_categories = {
         "Ascendancy",
         "Albion",
         "Arena",
+        "Caesar II",
         "Dune",
         "Dune 2",
         "Lands of Lore",
@@ -117,6 +118,7 @@ game_commands = {
     # DOS, games that run in dosbox
     "Albion": "dosbox -conf ~/.dosbox/albion.conf",
     "Arena": "dosbox -conf ~/.dosbox/arena.conf",
+    "Caesar II": "dosbox -conf ~/.dosbox/caesar2.conf",
     "Caster of Magic": "dosbox -conf ~/.dosbox/com.conf",
     "Commander Keen": "dosbox -conf ~/.dosbox/keen.conf",
     "Daggerfall": "dosbox -conf ~/.dosbox/fall.conf",
