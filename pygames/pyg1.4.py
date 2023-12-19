@@ -3,6 +3,12 @@ import json
 import subprocess
 import time
 
+def print_header():
+    with open("header2.txt", 'r') as file:
+        for line in file:
+            line = line.rstrip('\n')
+            print(line)
+
 # Load the JSON file
 def load_game_data(file_path):
     try:
@@ -59,11 +65,6 @@ def launch_game(game_commands, selected_game):
         print("The Wizard says: There is no command to launch this game!\n")
     input("\nPress Enter to continue...")
 
-def print_header():
-    with open("header2.txt", 'r') as file:
-        for line in file:
-            line = line.rstrip('\n')
-            print(line)
 
 def main():
     data = load_game_data("game_data.json")

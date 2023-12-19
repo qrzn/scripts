@@ -1,4 +1,19 @@
 import webbrowser
+import os
+import shutil
+
+def print_header():
+    columns, _ = shutil.get_terminal_size()
+    with open("yt2inv.txt", 'r') as file:
+        for line in file:
+            line = line.rstrip('\n') # remove unneccessary crud
+            print(f"{line.center(columns)}")
+
+# print one line strings in the center with delay
+def display_center_text(text):
+    columns = shutil.get_terminal_size().columns
+    centered_text = text.rstrip().center(columns)
+    print(centered_text)
 
 def convert_youtube_to_invidious(youtube_url):
     invidious_base_url = "https://yewtu.be"
@@ -17,14 +32,14 @@ def convert_youtube_to_invidious(youtube_url):
         return "Invalid YouTube URL."
 
 def main():
-    print("Welcome to YouTube to Invidious Link Converter!")
-    print("Enter a YouTube URL to convert it to an Invidious link.")
-    print("Type 'q' to quit or 'history' to view converted links.")
+    os.system('clear')
+    display_center_text("yt2inv")
+    display_center_text("a youtube to invidious converter")
 
     history = []
 
     while True:
-        youtube_url = input("\nEnter a YouTube link (or 'q' to quit): ").strip()
+        youtube_url = input("\nEnter a YouTube link (or 'q' to quit)\nurl:").strip()
 
         if youtube_url.lower() in ['q', 'exit']:
             print("Exiting the program. Goodbye!")
