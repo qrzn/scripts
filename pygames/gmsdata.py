@@ -14,11 +14,12 @@ def print_with_delay(text):
 game_categories = {
     "FAVS": [
         "Zeus",
+        "Age of Mythology",
         "Daggerfall",
         "Starbound",
+        "Stardew Valley",
         "Master of Magic",
         "Master of Orion",
-        "RetroArch",
         "OpenMW",
         "Emperor",
         "Siedler 2",
@@ -113,6 +114,7 @@ game_commands = {
     "Veil of Darkness": "dosbox -conf ~/.dosbox/veil.conf",
 
     # games that run through wine
+    "Age of Mythology": "cd ~/Spiele/wine/aomee/ && wine aomx.exe",
     "Alien Crossfire": "cd ~/Spiele/wine/smacx/ && wine terranx.exe",
     "Anno 1404": "cd ~/Spiele/wine/anno1404/ && wine Addon.exe",
     "Anno 1503": "cd ~/Spiele/wine/anno1503/ && wine 1503Startup.exe",

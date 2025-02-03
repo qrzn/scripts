@@ -34,7 +34,7 @@ BACKGROUND_COLOR_RESET = "\033[49m"
 
 # Load the JSON file
 
-with open ("game_data.json", "r") as file:
+with open ("/home/jan/git/scripts/pygames/game_data.json", "r") as file:
     data = json.load(file)
 
 # Retrieve the game categories and commands
@@ -100,7 +100,7 @@ def greeter():
 # Print the header, make it so it displays in the center
 def print_header():
     columns, _ = shutil.get_terminal_size()
-    with open("header2.txt", 'r') as file:
+    with open("/home/jan/git/scripts/pygames/header2.txt", 'r') as file:
         for line in file:
             line = line.rstrip('\n') # remove unneccessary crud
             print(TEXT_COLOR_MAGENTA + f"{line.center(columns)}" + TEXT_COLOR_RESET)
@@ -113,7 +113,8 @@ def clear_screen():
 def display_categories():
     # Function to display available game categories
     clear_screen()
-    display_center_text(TEXT_COLOR_CYAN + TEXT_BOLD + "\n -> CATEGORIES:\n" + TEXT_COLOR_RESET)
+    print_header()
+    print(TEXT_COLOR_CYAN + TEXT_BOLD + "\n -> CATEGORIES:\n" + TEXT_COLOR_RESET)
     index = 1
     for category in sorted(game_categories.keys()):
         print(TEXT_BOLD + TEXT_COLOR_GREEN + "{}. {}".format(index, category)+ TEXT_RESET)
@@ -124,7 +125,8 @@ def display_categories():
 def display_games(category):
     # Function to display games in a specific category
     clear_screen()
-    display_center_text(TEXT_BOLD + TEXT_COLOR_CYAN + "\n -> {}\n".format(category) + TEXT_RESET)
+    print_header()
+    print(TEXT_BOLD + TEXT_COLOR_CYAN + "\n -> {}\n".format(category) + TEXT_RESET)
     games = sorted(game_categories[category])
     index = 1
     for game in games:
@@ -158,6 +160,8 @@ while True:
     category_choice = input(TEXT_COLOR_RED + TEXT_BOLD + "\nThou sayest: " + TEXT_RESET + TEXT_COLOR_GREEN + TEXT_BOLD)
     if category_choice == "q":
         break
+    elif category_choice == "x":
+        break
     elif category_choice.isdigit():
         category_choice = int(category_choice)
         if 1 <= category_choice <= len(game_categories):
@@ -168,6 +172,8 @@ while True:
             if game_choice == "b":
                 continue
             elif game_choice == "q":
+                break
+            elif game_choice == "x":
                 break
             elif game_choice.isdigit(): 
                 game_choice = int(game_choice)
