@@ -1,7 +1,3 @@
-Here’s a well-structured and clear README for your repository:  
-
----
-
 # `scripts` – A Collection of Useful Scripts  
 
 A curated collection of simple yet effective scripts for various tasks.  
@@ -59,7 +55,3 @@ This repository is licensed under the [MIT License](LICENSE).
 ## 🤝 Contributions  
 
 Feel free to fork this repository, submit pull requests, or suggest new scripts via issues.  
-
----
-
-Let me know if you want any adjustments! 🚀
