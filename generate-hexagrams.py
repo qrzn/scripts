@@ -1,0 +1,80 @@
+import json
+
+# Define the 64 hexagrams in King Wen order with their traditional names
+hexagrams = [
+    {"number": 1, "name": "Ch'ien / The Creative", "binary": "111111"},
+    {"number": 2, "name": "K'un / The Receptive", "binary": "000000"},
+    {"number": 3, "name": "Chun / Difficulty at the Beginning", "binary": "010001"},
+    {"number": 4, "name": "Meng / Youthful Folly", "binary": "100010"},
+    {"number": 5, "name": "Hsu / Waiting", "binary": "111010"},
+    {"number": 6, "name": "Sung / Conflict", "binary": "010111"},
+    {"number": 7, "name": "Shih / The Army", "binary": "000010"},
+    {"number": 8, "name": "Pi / Holding Together", "binary": "010000"},
+    {"number": 9, "name": "Hsiao Ch'u / The Taming Power of the Small", "binary": "111011"},
+    {"number": 10, "name": "Lu / Treading", "binary": "110111"},
+    {"number": 11, "name": "T'ai / Peace", "binary": "111000"},
+    {"number": 12, "name": "P'i / Standstill", "binary": "000111"},
+    {"number": 13, "name": "T'ung Jen / Fellowship", "binary": "111101"},
+    {"number": 14, "name": "Ta Yu / Possession in Great Measure", "binary": "101111"},
+    {"number": 15, "name": "Ch'ien / Modesty", "binary": "000100"},
+    {"number": 16, "name": "Yu / Enthusiasm", "binary": "001000"},
+    {"number": 17, "name": "Sui / Following", "binary": "011001"},
+    {"number": 18, "name": "Ku / Work on the Decayed", "binary": "100110"},
+    {"number": 19, "name": "Lin / Approach", "binary": "000011"},
+    {"number": 20, "name": "Kuan / Contemplation", "binary": "110000"},
+    {"number": 21, "name": "Shih Ho / Biting Through", "binary": "101001"},
+    {"number": 22, "name": "Pi / Grace", "binary": "100101"},
+    {"number": 23, "name": "Po / Splitting Apart", "binary": "100000"},
+    {"number": 24, "name": "Fu / Return", "binary": "000001"},
+    {"number": 25, "name": "Wu Wang / Innocence", "binary": "111001"},
+    {"number": 26, "name": "Ta Ch'u / The Taming Power of the Great", "binary": "100111"},
+    {"number": 27, "name": "I / The Corners of the Mouth", "binary": "100001"},
+    {"number": 28, "name": "Ta Kuo / Preponderance of the Great", "binary": "011110"},
+    {"number": 29, "name": "K'an / The Abysmal", "binary": "010010"},
+    {"number": 30, "name": "Li / The Clinging", "binary": "101101"},
+    {"number": 31, "name": "Hsien / Influence", "binary": "011100"},
+    {"number": 32, "name": "Heng / Duration", "binary": "001110"},
+    {"number": 33, "name": "Tun / Retreat", "binary": "111100"},
+    {"number": 34, "name": "Ta Chuang / The Power of the Great", "binary": "001111"},
+    {"number": 35, "name": "Chin / Progress", "binary": "101000"},
+    {"number": 36, "name": "Ming I / Darkening of the Light", "binary": "000101"},
+    {"number": 37, "name": "Chia Jen / The Family", "binary": "110101"},
+    {"number": 38, "name": "K'uei / Opposition", "binary": "101011"},
+    {"number": 39, "name": "Chien / Obstruction", "binary": "010100"},
+    {"number": 40, "name": "Hsieh / Deliverance", "binary": "001010"},
+    {"number": 41, "name": "Sun / Decrease", "binary": "100011"},
+    {"number": 42, "name": "I / Increase", "binary": "110001"},
+    {"number": 43, "name": "Kuai / Breakthrough", "binary": "111110"},
+    {"number": 44, "name": "Kou / Coming to Meet", "binary": "011111"},
+    {"number": 45, "name": "Ts'ui / Gathering Together", "binary": "011000"},
+    {"number": 46, "name": "Sheng / Pushing Upward", "binary": "000110"},
+    {"number": 47, "name": "K'un / Oppression", "binary": "011010"},
+    {"number": 48, "name": "Ching / The Well", "binary": "010110"},
+    {"number": 49, "name": "Ko / Revolution", "binary": "011101"},
+    {"number": 50, "name": "Ting / The Cauldron", "binary": "101110"},
+    {"number": 51, "name": "Chen / The Arousing", "binary": "001001"},
+    {"number": 52, "name": "Ken / Keeping Still", "binary": "100100"},
+    {"number": 53, "name": "Chien / Development", "binary": "110100"},
+    {"number": 54, "name": "Kuei Mei / The Marrying Maiden", "binary": "001011"},
+    {"number": 55, "name": "Feng / Abundance", "binary": "001101"},
+    {"number": 56, "name": "Lu / The Wanderer", "binary": "101100"},
+    {"number": 57, "name": "Sun / The Gentle", "binary": "110110"},
+    {"number": 58, "name": "Tui / The Joyous", "binary": "011011"},
+    {"number": 59, "name": "Huan / Dispersion", "binary": "110010"},
+    {"number": 60, "name": "Chieh / Limitation", "binary": "010011"},
+    {"number": 61, "name": "Chung Fu / Inner Truth", "binary": "110011"},
+    {"number": 62, "name": "Hsiao Kuo / Preponderance of the Small", "binary": "001100"},
+    {"number": 63, "name": "Chi Chi / After Completion", "binary": "010101"},
+    {"number": 64, "name": "Wei Chi / Before Completion", "binary": "101010"}
+]
+
+# Create the JSON structure
+iching_data = {
+    "hexagrams": hexagrams
+}
+
+# Write to JSON file
+with open('iching_hexagrams.json', 'w', encoding='utf-8') as f:
+    json.dump(iching_data, f, indent=4, ensure_ascii=False)
+
+print("JSON file 'iching_hexagrams.json' has been generated successfully.")
