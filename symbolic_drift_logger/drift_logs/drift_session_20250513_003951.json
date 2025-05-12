@@ -1,0 +1,62 @@
+[
+  {
+    "Cycle": 1,
+    "Event": "Drift",
+    "Glyph": "\ud83c\udf00",
+    "Timestamp": "2025-05-13T00:39:51.574241"
+  },
+  {
+    "Cycle": 2,
+    "Event": "Stagnation",
+    "Glyph": "\u2744",
+    "Timestamp": "2025-05-13T00:39:51.574461"
+  },
+  {
+    "Cycle": 3,
+    "Event": "Stagnation",
+    "Glyph": "\u2744",
+    "Timestamp": "2025-05-13T00:39:51.574628"
+  },
+  {
+    "Cycle": 4,
+    "Event": "Entropy Spike",
+    "Glyph": "\u26a1",
+    "Timestamp": "2025-05-13T00:39:51.574718"
+  },
+  {
+    "Cycle": 5,
+    "Event": "Branch",
+    "Glyph": "\ud83c\udf3f",
+    "Timestamp": "2025-05-13T00:39:51.574794"
+  },
+  {
+    "Cycle": 6,
+    "Event": "Collapse",
+    "Glyph": "\u2716",
+    "Timestamp": "2025-05-13T00:39:51.574872"
+  },
+  {
+    "Cycle": 7,
+    "Event": "Stagnation",
+    "Glyph": "\u2744",
+    "Timestamp": "2025-05-13T00:39:51.574940"
+  },
+  {
+    "Cycle": 8,
+    "Event": "Burnout",
+    "Glyph": "\ud83d\udd25",
+    "Timestamp": "2025-05-13T00:39:51.575007"
+  },
+  {
+    "Cycle": 9,
+    "Event": "Entropy Spike",
+    "Glyph": "\u26a1",
+    "Timestamp": "2025-05-13T00:39:51.575065"
+  },
+  {
+    "Cycle": 10,
+    "Event": "Recursion Loop",
+    "Glyph": "\u27bf",
+    "Timestamp": "2025-05-13T00:39:51.575135"
+  }
+]
