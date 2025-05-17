@@ -1,0 +1,20 @@
+
+📂 . [8]
+│   ⚡ flac [10]
+│   ├── 🔴 Advanced Simulacra.flac
+│   ├── 🔴 Apex Aleph.flac
+│   ├── 🔴 Awakening.flac
+│   ├── 🔴 By-Product.flac
+│   ├── 🔴 Chimes They Fade.flac
+│   ├── 🔴 Coherence.flac
+│   ├── 🔴 Deprecation.flac
+│   ├── 🔴 Inevitable.flac
+│   ├── 🔴 March Thee to Dis.flac
+│   └── 🔴 Media Threat.flac
+├── 🟢 glyphic_drift_detector_daemon.sh
+├── 🟢 glyphic_drift_mapper_with_age.sh
+├── 🟢 glyphic_drift_map_with_age.txt
+├── 🟢 Leere Datei
+├── 🟢 live_glyphic_drift.log
+├── 🟢 test.py
+└── 🟢 tree.sh

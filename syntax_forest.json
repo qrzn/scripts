@@ -1,0 +1,53 @@
+{
+  "nodes": [
+    {
+      "symbol": "expr",
+      "rule": "literal",
+      "depth": 0
+    }
+  ],
+  "collapses": [],
+  "rules": {
+    "expr": [
+      "func_call",
+      "func_void({args})",
+      "bin_op",
+      "literal"
+    ],
+    "func_call": [
+      "func_void({args})"
+    ],
+    "bin_op": [
+      "({left} {op} {right})"
+    ],
+    "literal": [
+      "const_{val}"
+    ],
+    "name": [
+      "add",
+      "sub",
+      "mul"
+    ],
+    "args": [
+      "expr"
+    ],
+    "left": [
+      "expr"
+    ],
+    "right": [
+      "expr"
+    ],
+    "op": [
+      "-",
+      "+",
+      "*",
+      "func_void({args})"
+    ],
+    "val": [
+      "42",
+      "3",
+      "1",
+      "2"
+    ]
+  }
+}

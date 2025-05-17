@@ -1,0 +1,32 @@
+[
+  {
+    "Cycle": 1,
+    "Event": "Recursion Loop",
+    "Glyph": "\u27bf",
+    "Timestamp": "2025-05-13T09:29:59.080092"
+  },
+  {
+    "Cycle": 2,
+    "Event": "Branch",
+    "Glyph": "\ud83c\udf3f",
+    "Timestamp": "2025-05-13T09:30:02.856425"
+  },
+  {
+    "Cycle": 3,
+    "Event": "Entropy Spike",
+    "Glyph": "\u26a1",
+    "Timestamp": "2025-05-13T09:30:07.320286"
+  },
+  {
+    "Cycle": 4,
+    "Event": "Stagnation",
+    "Glyph": "\u2744",
+    "Timestamp": "2025-05-13T09:30:10.831695"
+  },
+  {
+    "Cycle": 5,
+    "Event": "Drift",
+    "Glyph": "\ud83c\udf00",
+    "Timestamp": "2025-05-13T09:30:15.857570"
+  }
+]

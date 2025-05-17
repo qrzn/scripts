@@ -1,0 +1,132 @@
+import matplotlib.pyplot as plt
+import networkx as nx
+import random
+import os
+import json
+from matplotlib.animation import FuncAnimation
+
+# === CONFIGURATION ===
+GENERATIONS = 6
+BRANCHING_PROBABILITY = 0.5
+COLLAPSE_PROBABILITY = 0.2
+EXPORT_DIR = "drift_exports"
+ANIMATION_FRAMES = 10
+MAX_AGE = 3  # Max age before pruning
+
+# Node display labels (ASCII fallback)
+LABELS = {
+    "origin": "ROOT",
+    "normal": "NODE",
+    "collapse": "X"
+}
+
+# Color map by generation
+GEN_COLORS = ["#00ffff", "#00ccff", "#0099ff", "#0066cc", "#003366", "#001f4d", "#000d1a"]
+
+# Ensure export directory exists
+os.makedirs(EXPORT_DIR, exist_ok=True)
+
+# === FUNCTIONAL MODULES ===
+
+def generate_drift_graph(generations):
+    G = nx.DiGraph()
+    node_counter = 0
+    node_info = {}
+
+    def recurse(node_name, generation):
+        nonlocal node_counter
+        if generation >= generations:
+            return
+
+        branches = random.randint(1, 3) if random.random() < BRANCHING_PROBABILITY else 0
+        for _ in range(branches):
+            node_counter += 1
+            new_node = f"{node_name}_{node_counter}"
+            G.add_edge(node_name, new_node)
+            node_info[new_node] = {"gen": generation + 1, "type": "normal", "age": 0}
+            recurse(new_node, generation + 1)
+
+        if random.random() < COLLAPSE_PROBABILITY:
+            collapse_node = f"collapse_{node_name}_{node_counter}"
+            G.add_edge(node_name, collapse_node)
+            node_info[collapse_node] = {"gen": generation + 1, "type": "collapse", "age": 0}
+
+    root = "origin"
+    G.add_node(root)
+    node_info[root] = {"gen": 0, "type": "origin", "age": 0}
+    recurse(root, 0)
+    return G, node_info
+
+
+def prune_old_nodes(G, node_info):
+    nodes_to_remove = [n for n, info in node_info.items() if info.get("age", 0) > MAX_AGE]
+    G.remove_nodes_from(nodes_to_remove)
+    for n in nodes_to_remove:
+        node_info.pop(n, None)
+
+
+def export_node_info(node_info, filename="node_info.json"):
+    with open(os.path.join(EXPORT_DIR, filename), "w") as f:
+        json.dump(node_info, f, indent=2)
+
+
+def visualize_graph(G, node_info, filename=None):
+    pos = nx.spring_layout(G, iterations=200, seed=42)
+    plt.figure(figsize=(14, 10))
+
+    for node in G.nodes():
+        if node not in pos: continue
+        gen = node_info[node]["gen"]
+        ntype = node_info[node]["type"]
+        age = node_info[node].get("age", 0)
+        color = GEN_COLORS[gen] if gen < len(GEN_COLORS) else GEN_COLORS[-1]
+        label = f"{LABELS.get(ntype, '?')} ({age})"
+        nx.draw_networkx_nodes(G, pos, nodelist=[node], node_color=color, node_size=500)
+        nx.draw_networkx_labels(G, pos, labels={node: label}, font_size=8, font_color='black')
+
+    nx.draw_networkx_edges(G, pos, arrows=True)
+    plt.title("Recursive Civilization Drift Field (Fractal Evolution)")
+    plt.axis('off')
+
+    if filename:
+        plt.savefig(os.path.join(EXPORT_DIR, filename), bbox_inches='tight')
+    else:
+        plt.show()
+    plt.close()
+
+
+def create_animation():
+    fig, ax = plt.subplots(figsize=(14, 10))
+    frames = []
+
+    def update(frame):
+        ax.clear()
+        G, node_info = generate_drift_graph(generations=frame + 2)
+        for info in node_info.values():
+            info["age"] += frame  # Simulate aging
+        prune_old_nodes(G, node_info)
+        pos = nx.spring_layout(G, iterations=100, seed=frame)
+        for node in G.nodes():
+            if node not in pos: continue
+            gen = node_info[node]["gen"]
+            ntype = node_info[node]["type"]
+            age = node_info[node].get("age", 0)
+            color = GEN_COLORS[gen] if gen < len(GEN_COLORS) else GEN_COLORS[-1]
+            label = f"{LABELS.get(ntype, '?')} ({age})"
+            nx.draw_networkx_nodes(G, pos, nodelist=[node], node_color=color, node_size=500, ax=ax)
+            nx.draw_networkx_labels(G, pos, labels={node: label}, font_size=8, font_color='black', ax=ax)
+        nx.draw_networkx_edges(G, pos, arrows=True, ax=ax)
+        ax.set_title(f"Drift Field Generation {frame + 1}")
+        ax.axis('off')
+
+    anim = FuncAnimation(fig, update, frames=ANIMATION_FRAMES, repeat=False)
+    anim.save(os.path.join(EXPORT_DIR, "drift_evolution.gif"), writer='pillow')
+    plt.close()
+
+
+# === EXECUTION ===
+if __name__ == "__main__":
+    G, node_info = generate_drift_graph(GENERATIONS)
+    export_node_info(node_info)
+    visualize_graph(G, node_info, filename="static_drift_map.png")
+    create_animation()
