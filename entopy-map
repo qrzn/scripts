@@ -1,0 +1,13 @@
+
+#!/bin/bash
+# ∴ Entropy Map Generator ∴
+# Visualize file size entropy in glyph form
+
+target="${1:-$HOME}"
+depth="${2:-2}"
+
+find "$target" -maxdepth "$depth" -type f -printf '%s %p\n' 2>/dev/null |
+  sort -n | tail -n 40 | while read -r size path; do
+    glyphs=$(printf '%*s' $((size / 10000)) '' | tr ' ' '▇')
+    printf "%-50s %s bytes\n" "${glyphs:0:50}" "$path"
+  done

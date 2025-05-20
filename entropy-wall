@@ -1,0 +1,20 @@
+#!/bin/bash
+# ∴ Entropy Loop Field Generator ∴
+
+size="${1:-512}"
+glyphs=(∴ ⌬ ⌘ ⎋ ☍ ⚙ ⌖ ⎙ ⊚ ⧈ 🜔 ⍥)
+
+outpath="$HOME/Bilder/backgrounds/tiles/entropy/entropy-loop.png"
+mkdir -p "$(dirname "$outpath")"
+
+magick -size "${size}x${size}" xc:black -gravity Center \
+  -font "/usr/share/fonts/TTF/JetBrainsMono-Regular.ttf" \
+  -pointsize 24 -fill "#444" \
+  -draw "$(for i in {1..200}; do
+    x=$((RANDOM % size))
+    y=$((RANDOM % size))
+    g=${glyphs[$RANDOM % ${#glyphs[@]}]}
+    echo "text $x,$y '$g'"
+  done)" "$outpath"
+
+feh --bg-tile "$outpath"
